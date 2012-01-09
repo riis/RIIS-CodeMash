@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RIISKata.xcscheme</key>
+		<key>RIIS-CodeMash.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C40C7534149F97A100E2E22E</key>
+		<key>C4A61A9814BB8EE3000EAB6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C40C755B149F97A100E2E22E</key>
+		<key>C4A61AB314BB8EE3000EAB6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,185 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C40C753A149F97A100E2E22E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C7539149F97A100E2E22E /* UIKit.framework */; };
-		C40C753C149F97A100E2E22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753B149F97A100E2E22E /* Foundation.framework */; };
-		C40C753E149F97A100E2E22E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753D149F97A100E2E22E /* CoreGraphics.framework */; };
-		C40C7544149F97A100E2E22E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40C7542149F97A100E2E22E /* InfoPlist.strings */; };
-		C40C7546149F97A100E2E22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7545149F97A100E2E22E /* main.m */; };
-		C40C754A149F97A100E2E22E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7549149F97A100E2E22E /* AppDelegate.m */; };
-		C40C754D149F97A100E2E22E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754C149F97A100E2E22E /* MainViewController.m */; };
-		C40C7550149F97A100E2E22E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C754F149F97A100E2E22E /* SettingsViewController.m */; };
-		C40C7553149F97A100E2E22E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7551149F97A100E2E22E /* MainViewController.xib */; };
-		C40C7556149F97A100E2E22E /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40C7554149F97A100E2E22E /* SettingsViewController.xib */; };
-		C40C755E149F97A100E2E22E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C755D149F97A100E2E22E /* SenTestingKit.framework */; };
-		C40C755F149F97A100E2E22E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C7539149F97A100E2E22E /* UIKit.framework */; };
-		C40C7560149F97A100E2E22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40C753B149F97A100E2E22E /* Foundation.framework */; };
-		C40C7568149F97A100E2E22E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C40C7566149F97A100E2E22E /* InfoPlist.strings */; };
-		C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C756A149F97A100E2E22E /* RIISKataTests.m */; };
-		C40C7577149F987100E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
-		C40C757A149F98BB00E2E22E /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C40C7576149F987100E2E22E /* Model.m */; };
-		C46DA6C0149FC08C003A224B /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */; };
-		C46DA6C1149FC08C003A224B /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C46DA6BE149FC08C003A224B /* bigButton_UP.png */; };
-		C4CCE4DD149FC0F5004BAA8E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CCE4DC149FC0F5004BAA8E /* Default.png */; };
+		C4A61A9E14BB8EE3000EAB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */; };
+		C4A61AA014BB8EE3000EAB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */; };
+		C4A61AA214BB8EE3000EAB6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */; };
+		C4A61AA814BB8EE3000EAB6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AA614BB8EE3000EAB6D /* InfoPlist.strings */; };
+		C4A61AAA14BB8EE3000EAB6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AA914BB8EE3000EAB6D /* main.m */; };
+		C4A61AAE14BB8EE3000EAB6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AAD14BB8EE3000EAB6D /* AppDelegate.m */; };
+		C4A61AB614BB8EE3000EAB6D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AB514BB8EE3000EAB6D /* SenTestingKit.framework */; };
+		C4A61AB714BB8EE3000EAB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */; };
+		C4A61AB814BB8EE3000EAB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */; };
+		C4A61AC014BB8EE3000EAB6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4A61ABE14BB8EE3000EAB6D /* InfoPlist.strings */; };
+		C4A61AC314BB8EE3000EAB6D /* RIIS_CodeMashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AC214BB8EE3000EAB6D /* RIIS_CodeMashTests.m */; };
+		C4A61AD314BB8F6D000EAB6D /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD014BB8F6D000EAB6D /* bigButton_DOWN.png */; };
+		C4A61AD414BB8F6D000EAB6D /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD114BB8F6D000EAB6D /* bigButton_UP.png */; };
+		C4A61AD514BB8F6D000EAB6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD214BB8F6D000EAB6D /* Default.png */; };
+		C4A61AE414BB9029000EAB6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61ADF14BB9029000EAB6D /* MainViewController.m */; };
+		C4A61AE514BB9029000EAB6D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE114BB9029000EAB6D /* Model.m */; };
+		C4A61AE614BB9029000EAB6D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE314BB9029000EAB6D /* SettingsViewController.m */; };
+		C4A61AEB14BB9089000EAB6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE714BB9089000EAB6D /* MainViewController.xib */; };
+		C4A61AEC14BB9089000EAB6D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE914BB9089000EAB6D /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C40C7561149F97A100E2E22E /* PBXContainerItemProxy */ = {
+		C4A61AB914BB8EE3000EAB6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C40C752C149F97A100E2E22E /* Project object */;
+			containerPortal = C4A61A9014BB8EE3000EAB6D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C40C7534149F97A100E2E22E;
-			remoteInfo = RIISKata;
+			remoteGlobalIDString = C4A61A9814BB8EE3000EAB6D;
+			remoteInfo = "RIIS-CodeMash";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C40C7535149F97A100E2E22E /* RIISKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RIISKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40C7539149F97A100E2E22E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C40C753B149F97A100E2E22E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C40C753D149F97A100E2E22E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C40C7541149F97A100E2E22E /* RIISKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RIISKata-Info.plist"; sourceTree = "<group>"; };
-		C40C7543149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C40C7545149F97A100E2E22E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C40C7547149F97A100E2E22E /* RIISKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RIISKata-Prefix.pch"; sourceTree = "<group>"; };
-		C40C7548149F97A100E2E22E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C40C7549149F97A100E2E22E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C40C754B149F97A100E2E22E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		C40C754C149F97A100E2E22E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		C40C754E149F97A100E2E22E /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		C40C754F149F97A100E2E22E /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		C40C7552149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
-		C40C7555149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
-		C40C755C149F97A100E2E22E /* RIISKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RIISKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40C755D149F97A100E2E22E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C40C7565149F97A100E2E22E /* RIISKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RIISKataTests-Info.plist"; sourceTree = "<group>"; };
-		C40C7567149F97A100E2E22E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C40C7569149F97A100E2E22E /* RIISKataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIISKataTests.h; sourceTree = "<group>"; };
-		C40C756A149F97A100E2E22E /* RIISKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIISKataTests.m; sourceTree = "<group>"; };
-		C40C7575149F987100E2E22E /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		C40C7576149F987100E2E22E /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_DOWN.png; sourceTree = "<group>"; };
-		C46DA6BE149FC08C003A224B /* bigButton_UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_UP.png; sourceTree = "<group>"; };
-		C4CCE4DC149FC0F5004BAA8E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4A61A9914BB8EE3000EAB6D /* RIIS-CodeMash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIIS-CodeMash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4A61AA514BB8EE3000EAB6D /* RIIS-CodeMash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RIIS-CodeMash-Info.plist"; sourceTree = "<group>"; };
+		C4A61AA714BB8EE3000EAB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4A61AA914BB8EE3000EAB6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4A61AAB14BB8EE3000EAB6D /* RIIS-CodeMash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RIIS-CodeMash-Prefix.pch"; sourceTree = "<group>"; };
+		C4A61AAC14BB8EE3000EAB6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4A61AAD14BB8EE3000EAB6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4A61AB414BB8EE3000EAB6D /* RIIS-CodeMashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RIIS-CodeMashTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A61AB514BB8EE3000EAB6D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4A61ABD14BB8EE3000EAB6D /* RIIS-CodeMashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RIIS-CodeMashTests-Info.plist"; sourceTree = "<group>"; };
+		C4A61ABF14BB8EE3000EAB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4A61AC114BB8EE3000EAB6D /* RIIS_CodeMashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIIS_CodeMashTests.h; sourceTree = "<group>"; };
+		C4A61AC214BB8EE3000EAB6D /* RIIS_CodeMashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIIS_CodeMashTests.m; sourceTree = "<group>"; };
+		C4A61AD014BB8F6D000EAB6D /* bigButton_DOWN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_DOWN.png; sourceTree = "<group>"; };
+		C4A61AD114BB8F6D000EAB6D /* bigButton_UP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigButton_UP.png; sourceTree = "<group>"; };
+		C4A61AD214BB8F6D000EAB6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4A61ADE14BB9029000EAB6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4A61ADF14BB9029000EAB6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4A61AE014BB9029000EAB6D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C4A61AE114BB9029000EAB6D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C4A61AE214BB9029000EAB6D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C4A61AE314BB9029000EAB6D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C4A61AE814BB9089000EAB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		C4A61AEA14BB9089000EAB6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C40C7532149F97A100E2E22E /* Frameworks */ = {
+		C4A61A9614BB8EE3000EAB6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C753A149F97A100E2E22E /* UIKit.framework in Frameworks */,
-				C40C753C149F97A100E2E22E /* Foundation.framework in Frameworks */,
-				C40C753E149F97A100E2E22E /* CoreGraphics.framework in Frameworks */,
+				C4A61A9E14BB8EE3000EAB6D /* UIKit.framework in Frameworks */,
+				C4A61AA014BB8EE3000EAB6D /* Foundation.framework in Frameworks */,
+				C4A61AA214BB8EE3000EAB6D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40C7558149F97A100E2E22E /* Frameworks */ = {
+		C4A61AB014BB8EE3000EAB6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C755E149F97A100E2E22E /* SenTestingKit.framework in Frameworks */,
-				C40C755F149F97A100E2E22E /* UIKit.framework in Frameworks */,
-				C40C7560149F97A100E2E22E /* Foundation.framework in Frameworks */,
+				C4A61AB614BB8EE3000EAB6D /* SenTestingKit.framework in Frameworks */,
+				C4A61AB714BB8EE3000EAB6D /* UIKit.framework in Frameworks */,
+				C4A61AB814BB8EE3000EAB6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C40C752A149F97A100E2E22E = {
+		C4A61A8E14BB8EE3000EAB6D = {
 			isa = PBXGroup;
 			children = (
-				C40C753F149F97A100E2E22E /* RIISKata */,
-				C40C7563149F97A100E2E22E /* RIISKataTests */,
-				C40C7538149F97A100E2E22E /* Frameworks */,
-				C40C7536149F97A100E2E22E /* Products */,
+				C4A61AA314BB8EE3000EAB6D /* RIIS-CodeMash */,
+				C4A61ABB14BB8EE3000EAB6D /* RIIS-CodeMashTests */,
+				C4A61A9C14BB8EE3000EAB6D /* Frameworks */,
+				C4A61A9A14BB8EE3000EAB6D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C40C7536149F97A100E2E22E /* Products */ = {
+		C4A61A9A14BB8EE3000EAB6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C40C7535149F97A100E2E22E /* RIISKata.app */,
-				C40C755C149F97A100E2E22E /* RIISKataTests.octest */,
+				C4A61A9914BB8EE3000EAB6D /* RIIS-CodeMash.app */,
+				C4A61AB414BB8EE3000EAB6D /* RIIS-CodeMashTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C40C7538149F97A100E2E22E /* Frameworks */ = {
+		C4A61A9C14BB8EE3000EAB6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C40C7539149F97A100E2E22E /* UIKit.framework */,
-				C40C753B149F97A100E2E22E /* Foundation.framework */,
-				C40C753D149F97A100E2E22E /* CoreGraphics.framework */,
-				C40C755D149F97A100E2E22E /* SenTestingKit.framework */,
+				C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */,
+				C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */,
+				C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */,
+				C4A61AB514BB8EE3000EAB6D /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C40C753F149F97A100E2E22E /* RIISKata */ = {
+		C4A61AA314BB8EE3000EAB6D /* RIIS-CodeMash */ = {
 			isa = PBXGroup;
 			children = (
-				C46DA6B7149FC05B003A224B /* Resources */,
-				C40C7574149F985000E2E22E /* Model.m */,
-				C40C7548149F97A100E2E22E /* AppDelegate.h */,
-				C40C7549149F97A100E2E22E /* AppDelegate.m */,
-				C40C754B149F97A100E2E22E /* MainViewController.h */,
-				C40C754C149F97A100E2E22E /* MainViewController.m */,
-				C40C7551149F97A100E2E22E /* MainViewController.xib */,
-				C40C754E149F97A100E2E22E /* SettingsViewController.h */,
-				C40C754F149F97A100E2E22E /* SettingsViewController.m */,
-				C40C7554149F97A100E2E22E /* SettingsViewController.xib */,
-				C40C7540149F97A100E2E22E /* Supporting Files */,
+				C4A61AD714BB8F78000EAB6D /* Resources */,
+				C4A61AAC14BB8EE3000EAB6D /* AppDelegate.h */,
+				C4A61AAD14BB8EE3000EAB6D /* AppDelegate.m */,
+				C4A61ADE14BB9029000EAB6D /* MainViewController.h */,
+				C4A61ADF14BB9029000EAB6D /* MainViewController.m */,
+				C4A61AE714BB9089000EAB6D /* MainViewController.xib */,
+				C4A61AE014BB9029000EAB6D /* Model.h */,
+				C4A61AE114BB9029000EAB6D /* Model.m */,
+				C4A61AE214BB9029000EAB6D /* SettingsViewController.h */,
+				C4A61AE314BB9029000EAB6D /* SettingsViewController.m */,
+				C4A61AE914BB9089000EAB6D /* SettingsViewController.xib */,
+				C4A61AA414BB8EE3000EAB6D /* Supporting Files */,
 			);
-			path = RIISKata;
+			path = "RIIS-CodeMash";
 			sourceTree = "<group>";
 		};
-		C40C7540149F97A100E2E22E /* Supporting Files */ = {
+		C4A61AA414BB8EE3000EAB6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C40C7541149F97A100E2E22E /* RIISKata-Info.plist */,
-				C40C7542149F97A100E2E22E /* InfoPlist.strings */,
-				C40C7545149F97A100E2E22E /* main.m */,
-				C40C7547149F97A100E2E22E /* RIISKata-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C40C7563149F97A100E2E22E /* RIISKataTests */ = {
-			isa = PBXGroup;
-			children = (
-				C40C7569149F97A100E2E22E /* RIISKataTests.h */,
-				C40C756A149F97A100E2E22E /* RIISKataTests.m */,
-				C40C7564149F97A100E2E22E /* Supporting Files */,
-			);
-			path = RIISKataTests;
-			sourceTree = "<group>";
-		};
-		C40C7564149F97A100E2E22E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C40C7565149F97A100E2E22E /* RIISKataTests-Info.plist */,
-				C40C7566149F97A100E2E22E /* InfoPlist.strings */,
+				C4A61AA514BB8EE3000EAB6D /* RIIS-CodeMash-Info.plist */,
+				C4A61AA614BB8EE3000EAB6D /* InfoPlist.strings */,
+				C4A61AA914BB8EE3000EAB6D /* main.m */,
+				C4A61AAB14BB8EE3000EAB6D /* RIIS-CodeMash-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C40C7574149F985000E2E22E /* Model.m */ = {
+		C4A61ABB14BB8EE3000EAB6D /* RIIS-CodeMashTests */ = {
 			isa = PBXGroup;
 			children = (
-				C40C7575149F987100E2E22E /* Model.h */,
-				C40C7576149F987100E2E22E /* Model.m */,
+				C4A61AC114BB8EE3000EAB6D /* RIIS_CodeMashTests.h */,
+				C4A61AC214BB8EE3000EAB6D /* RIIS_CodeMashTests.m */,
+				C4A61ABC14BB8EE3000EAB6D /* Supporting Files */,
 			);
-			name = Model.m;
+			path = "RIIS-CodeMashTests";
 			sourceTree = "<group>";
 		};
-		C46DA6B7149FC05B003A224B /* Resources */ = {
+		C4A61ABC14BB8EE3000EAB6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4CCE4DC149FC0F5004BAA8E /* Default.png */,
-				C46DA6BD149FC08C003A224B /* bigButton_DOWN.png */,
-				C46DA6BE149FC08C003A224B /* bigButton_UP.png */,
+				C4A61ABD14BB8EE3000EAB6D /* RIIS-CodeMashTests-Info.plist */,
+				C4A61ABE14BB8EE3000EAB6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4A61AD714BB8F78000EAB6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4A61AD014BB8F6D000EAB6D /* bigButton_DOWN.png */,
+				C4A61AD114BB8F6D000EAB6D /* bigButton_UP.png */,
+				C4A61AD214BB8F6D000EAB6D /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -193,95 +184,94 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C40C7534149F97A100E2E22E /* RIISKata */ = {
+		C4A61A9814BB8EE3000EAB6D /* RIIS-CodeMash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C40C756E149F97A100E2E22E /* Build configuration list for PBXNativeTarget "RIISKata" */;
+			buildConfigurationList = C4A61AC614BB8EE3000EAB6D /* Build configuration list for PBXNativeTarget "RIIS-CodeMash" */;
 			buildPhases = (
-				C40C7531149F97A100E2E22E /* Sources */,
-				C40C7532149F97A100E2E22E /* Frameworks */,
-				C40C7533149F97A100E2E22E /* Resources */,
+				C4A61A9514BB8EE3000EAB6D /* Sources */,
+				C4A61A9614BB8EE3000EAB6D /* Frameworks */,
+				C4A61A9714BB8EE3000EAB6D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RIISKata;
-			productName = RIISKata;
-			productReference = C40C7535149F97A100E2E22E /* RIISKata.app */;
+			name = "RIIS-CodeMash";
+			productName = "RIIS-CodeMash";
+			productReference = C4A61A9914BB8EE3000EAB6D /* RIIS-CodeMash.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C40C755B149F97A100E2E22E /* RIISKataTests */ = {
+		C4A61AB314BB8EE3000EAB6D /* RIIS-CodeMashTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C40C7571149F97A100E2E22E /* Build configuration list for PBXNativeTarget "RIISKataTests" */;
+			buildConfigurationList = C4A61AC914BB8EE3000EAB6D /* Build configuration list for PBXNativeTarget "RIIS-CodeMashTests" */;
 			buildPhases = (
-				C40C7557149F97A100E2E22E /* Sources */,
-				C40C7558149F97A100E2E22E /* Frameworks */,
-				C40C7559149F97A100E2E22E /* Resources */,
-				C40C755A149F97A100E2E22E /* ShellScript */,
+				C4A61AAF14BB8EE3000EAB6D /* Sources */,
+				C4A61AB014BB8EE3000EAB6D /* Frameworks */,
+				C4A61AB114BB8EE3000EAB6D /* Resources */,
+				C4A61AB214BB8EE3000EAB6D /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C40C7562149F97A100E2E22E /* PBXTargetDependency */,
+				C4A61ABA14BB8EE3000EAB6D /* PBXTargetDependency */,
 			);
-			name = RIISKataTests;
-			productName = RIISKataTests;
-			productReference = C40C755C149F97A100E2E22E /* RIISKataTests.octest */;
+			name = "RIIS-CodeMashTests";
+			productName = "RIIS-CodeMashTests";
+			productReference = C4A61AB414BB8EE3000EAB6D /* RIIS-CodeMashTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C40C752C149F97A100E2E22E /* Project object */ = {
+		C4A61A9014BB8EE3000EAB6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = RIIS;
 			};
-			buildConfigurationList = C40C752F149F97A100E2E22E /* Build configuration list for PBXProject "RIISKata" */;
+			buildConfigurationList = C4A61A9314BB8EE3000EAB6D /* Build configuration list for PBXProject "RIIS-CodeMash" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C40C752A149F97A100E2E22E;
-			productRefGroup = C40C7536149F97A100E2E22E /* Products */;
+			mainGroup = C4A61A8E14BB8EE3000EAB6D;
+			productRefGroup = C4A61A9A14BB8EE3000EAB6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C40C7534149F97A100E2E22E /* RIISKata */,
-				C40C755B149F97A100E2E22E /* RIISKataTests */,
+				C4A61A9814BB8EE3000EAB6D /* RIIS-CodeMash */,
+				C4A61AB314BB8EE3000EAB6D /* RIIS-CodeMashTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C40C7533149F97A100E2E22E /* Resources */ = {
+		C4A61A9714BB8EE3000EAB6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C7544149F97A100E2E22E /* InfoPlist.strings in Resources */,
-				C40C7553149F97A100E2E22E /* MainViewController.xib in Resources */,
-				C40C7556149F97A100E2E22E /* SettingsViewController.xib in Resources */,
-				C46DA6C0149FC08C003A224B /* bigButton_DOWN.png in Resources */,
-				C46DA6C1149FC08C003A224B /* bigButton_UP.png in Resources */,
-				C4CCE4DD149FC0F5004BAA8E /* Default.png in Resources */,
+				C4A61AA814BB8EE3000EAB6D /* InfoPlist.strings in Resources */,
+				C4A61AD314BB8F6D000EAB6D /* bigButton_DOWN.png in Resources */,
+				C4A61AD414BB8F6D000EAB6D /* bigButton_UP.png in Resources */,
+				C4A61AD514BB8F6D000EAB6D /* Default.png in Resources */,
+				C4A61AEB14BB9089000EAB6D /* MainViewController.xib in Resources */,
+				C4A61AEC14BB9089000EAB6D /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40C7559149F97A100E2E22E /* Resources */ = {
+		C4A61AB114BB8EE3000EAB6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C7568149F97A100E2E22E /* InfoPlist.strings in Resources */,
+				C4A61AC014BB8EE3000EAB6D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C40C755A149F97A100E2E22E /* ShellScript */ = {
+		C4A61AB214BB8EE3000EAB6D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,74 +287,73 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C40C7531149F97A100E2E22E /* Sources */ = {
+		C4A61A9514BB8EE3000EAB6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C7546149F97A100E2E22E /* main.m in Sources */,
-				C40C754A149F97A100E2E22E /* AppDelegate.m in Sources */,
-				C40C754D149F97A100E2E22E /* MainViewController.m in Sources */,
-				C40C7550149F97A100E2E22E /* SettingsViewController.m in Sources */,
-				C40C7577149F987100E2E22E /* Model.m in Sources */,
+				C4A61AAA14BB8EE3000EAB6D /* main.m in Sources */,
+				C4A61AAE14BB8EE3000EAB6D /* AppDelegate.m in Sources */,
+				C4A61AE414BB9029000EAB6D /* MainViewController.m in Sources */,
+				C4A61AE514BB9029000EAB6D /* Model.m in Sources */,
+				C4A61AE614BB9029000EAB6D /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40C7557149F97A100E2E22E /* Sources */ = {
+		C4A61AAF14BB8EE3000EAB6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40C756B149F97A100E2E22E /* RIISKataTests.m in Sources */,
-				C40C757A149F98BB00E2E22E /* Model.m in Sources */,
+				C4A61AC314BB8EE3000EAB6D /* RIIS_CodeMashTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C40C7562149F97A100E2E22E /* PBXTargetDependency */ = {
+		C4A61ABA14BB8EE3000EAB6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C40C7534149F97A100E2E22E /* RIISKata */;
-			targetProxy = C40C7561149F97A100E2E22E /* PBXContainerItemProxy */;
+			target = C4A61A9814BB8EE3000EAB6D /* RIIS-CodeMash */;
+			targetProxy = C4A61AB914BB8EE3000EAB6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C40C7542149F97A100E2E22E /* InfoPlist.strings */ = {
+		C4A61AA614BB8EE3000EAB6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C40C7543149F97A100E2E22E /* en */,
+				C4A61AA714BB8EE3000EAB6D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C40C7551149F97A100E2E22E /* MainViewController.xib */ = {
+		C4A61ABE14BB8EE3000EAB6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C40C7552149F97A100E2E22E /* en */,
+				C4A61ABF14BB8EE3000EAB6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4A61AE714BB9089000EAB6D /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A61AE814BB9089000EAB6D /* en */,
 			);
 			name = MainViewController.xib;
 			sourceTree = "<group>";
 		};
-		C40C7554149F97A100E2E22E /* SettingsViewController.xib */ = {
+		C4A61AE914BB9089000EAB6D /* SettingsViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C40C7555149F97A100E2E22E /* en */,
+				C4A61AEA14BB9089000EAB6D /* en */,
 			);
 			name = SettingsViewController.xib;
-			sourceTree = "<group>";
-		};
-		C40C7566149F97A100E2E22E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C40C7567149F97A100E2E22E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C40C756C149F97A100E2E22E /* Debug */ = {
+		C4A61AC414BB8EE3000EAB6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,13 +377,12 @@
 			};
 			name = Debug;
 		};
-		C40C756D149F97A100E2E22E /* Release */ = {
+		C4A61AC514BB8EE3000EAB6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -403,62 +391,61 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C40C756F149F97A100E2E22E /* Debug */ = {
+		C4A61AC714BB8EE3000EAB6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
-				INFOPLIST_FILE = "RIISKata/RIISKata-Info.plist";
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMash/RIIS-CodeMash-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		C40C7570149F97A100E2E22E /* Release */ = {
+		C4A61AC814BB8EE3000EAB6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
-				INFOPLIST_FILE = "RIISKata/RIISKata-Info.plist";
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMash/RIIS-CodeMash-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		C40C7572149F97A100E2E22E /* Debug */ = {
+		C4A61ACA14BB8EE3000EAB6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RIISKata.app/RIISKata";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RIIS-CodeMash.app/RIIS-CodeMash";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
-				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMashTests/RIIS-CodeMashTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		C40C7573149F97A100E2E22E /* Release */ = {
+		C4A61ACB14BB8EE3000EAB6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RIISKata.app/RIISKata";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RIIS-CodeMash.app/RIIS-CodeMash";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RIISKata/RIISKata-Prefix.pch";
-				INFOPLIST_FILE = "RIISKataTests/RIISKataTests-Info.plist";
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMashTests/RIIS-CodeMashTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
 				WRAPPER_EXTENSION = octest;
@@ -468,34 +455,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C40C752F149F97A100E2E22E /* Build configuration list for PBXProject "RIISKata" */ = {
+		C4A61A9314BB8EE3000EAB6D /* Build configuration list for PBXProject "RIIS-CodeMash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C40C756C149F97A100E2E22E /* Debug */,
-				C40C756D149F97A100E2E22E /* Release */,
+				C4A61AC414BB8EE3000EAB6D /* Debug */,
+				C4A61AC514BB8EE3000EAB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C40C756E149F97A100E2E22E /* Build configuration list for PBXNativeTarget "RIISKata" */ = {
+		C4A61AC614BB8EE3000EAB6D /* Build configuration list for PBXNativeTarget "RIIS-CodeMash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C40C756F149F97A100E2E22E /* Debug */,
-				C40C7570149F97A100E2E22E /* Release */,
+				C4A61AC714BB8EE3000EAB6D /* Debug */,
+				C4A61AC814BB8EE3000EAB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C40C7571149F97A100E2E22E /* Build configuration list for PBXNativeTarget "RIISKataTests" */ = {
+		C4A61AC914BB8EE3000EAB6D /* Build configuration list for PBXNativeTarget "RIIS-CodeMashTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C40C7572149F97A100E2E22E /* Debug */,
-				C40C7573149F97A100E2E22E /* Release */,
+				C4A61ACA14BB8EE3000EAB6D /* Debug */,
+				C4A61ACB14BB8EE3000EAB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C40C752C149F97A100E2E22E /* Project object */;
+	rootObject = C4A61A9014BB8EE3000EAB6D /* Project object */;
 }

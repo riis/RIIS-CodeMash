@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C40C7534149F97A100E2E22E"
-               BuildableName = "RIISKata.app"
-               BlueprintName = "RIISKata"
-               ReferencedContainer = "container:RIISKata.xcodeproj">
+               BlueprintIdentifier = "C4A61A9814BB8EE3000EAB6D"
+               BuildableName = "RIIS-CodeMash.app"
+               BlueprintName = "RIIS-CodeMash"
+               ReferencedContainer = "container:RIIS-CodeMash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,20 +31,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C40C755B149F97A100E2E22E"
-               BuildableName = "RIISKataTests.octest"
-               BlueprintName = "RIISKataTests"
-               ReferencedContainer = "container:RIISKata.xcodeproj">
+               BlueprintIdentifier = "C4A61AB314BB8EE3000EAB6D"
+               BuildableName = "RIIS-CodeMashTests.octest"
+               BlueprintName = "RIIS-CodeMashTests"
+               ReferencedContainer = "container:RIIS-CodeMash.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C40C7534149F97A100E2E22E"
-            BuildableName = "RIISKata.app"
-            BlueprintName = "RIISKata"
-            ReferencedContainer = "container:RIISKata.xcodeproj">
+            BlueprintIdentifier = "C4A61A9814BB8EE3000EAB6D"
+            BuildableName = "RIIS-CodeMash.app"
+            BlueprintName = "RIIS-CodeMash"
+            ReferencedContainer = "container:RIIS-CodeMash.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -59,10 +59,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C40C7534149F97A100E2E22E"
-            BuildableName = "RIISKata.app"
-            BlueprintName = "RIISKata"
-            ReferencedContainer = "container:RIISKata.xcodeproj">
+            BlueprintIdentifier = "C4A61A9814BB8EE3000EAB6D"
+            BuildableName = "RIIS-CodeMash.app"
+            BlueprintName = "RIIS-CodeMash"
+            ReferencedContainer = "container:RIIS-CodeMash.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,10 +77,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C40C7534149F97A100E2E22E"
-            BuildableName = "RIISKata.app"
-            BlueprintName = "RIISKata"
-            ReferencedContainer = "container:RIISKata.xcodeproj">
+            BlueprintIdentifier = "C4A61A9814BB8EE3000EAB6D"
+            BuildableName = "RIIS-CodeMash.app"
+            BlueprintName = "RIIS-CodeMash"
+            ReferencedContainer = "container:RIIS-CodeMash.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
