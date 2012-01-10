@@ -1,0 +1,433 @@
+TRIIS-CodeMash
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Info.plist RIIS-CodeMash/RIIS-CodeMash-Info.plist
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist
+cProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash normal armv7
+cGenerateDSYMFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash
+cCopyStringsFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/InfoPlist.strings RIIS-CodeMash/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png RIIS-CodeMash/bigButton_DOWN.png
+cCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png RIIS-CodeMash/bigButton_UP.png
+cCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Default.png RIIS-CodeMash/Default.png
+cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
+cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
+cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision
+cTouch /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent
+cCodeSign /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+cValidate /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m
+c000000004F0C5D7C00000000000003AF
+t1326210428
+s943
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png
+c000000004F0C5D7C0000000000008167
+t1326210428
+s33127
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m
+c000000004F0C5D7C0000000000000415
+t1326210428
+s1045
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m
+c000000004F0C5D7C00000000000000D6
+t1326210428
+s214
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch
+c000000004F0C5D7C0000000000000149
+t1326210428
+s329
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m
+c000000004F0C5D7C000000000000015D
+t1326210428
+s349
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png
+c000000004F0C5D7C000000000001696C
+t1326210428
+s92524
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png
+c000000004F0C5D7C0000000000012719
+t1326210428
+s75545
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/InfoPlist.strings
+c000000004F0C5D7C000000000000002D
+t1326210428
+s45
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
+c000000004F0C5D7C0000000000002EC3
+t1326210428
+s11971
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
+c000000004F0C5D7C0000000000001D8D
+t1326210428
+s7565
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m
+c000000004F0C5D7C000000000000015B
+t1326210428
+s347
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/RIIS-CodeMash.LinkFileList
+c000000004F0C8A5600000000000002DF
+t1326221910
+s735
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Default.png
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Info.plist
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/PkgInfo
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/MainViewController.nib
+t2
+s0
+
+N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/SettingsViewController.nib
+t2
+s0
+
+N/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision
+c000000004F0C60FE0000000000002136
+t1326211326
+s8502
+
+N/var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth
+t2
+s0
+
+NRIIS-CodeMash/RIIS-CodeMash-Info.plist
+c000000004F0C5D7C00000000000004BE
+t1326210428
+s1214
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies38849ed5c1bcb441^b22f5dd6c1bcb441^---0#1#0#--18"Check dependencies36"A09C02F4-9BEB-4D2B-BD01-63DA63AC8243-
+
+CCodeSign /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+s347914711.831316
+e347914711.971789
+r1
+xCodeSign
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CodeSign build/Release-iphoneos/RIIS-CodeMash.app8fe2d4d7c1bcb441^8fc7f8d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/0000000000000000^810"CodeSign build/Release-iphoneos/RIIS-CodeMash.app    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign "iPhone Distribution: RIIS LLC" --resource-rules=/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist --entitlements /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app36"A13EA634-A9E8-4EB4-A91C-7E88519E0948-
+
+CCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.702023
+e347914710.766119
+r1
+xCompileC
+xbuild/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.md4d7b3d6c1bcb441^3e20c4d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m0000000000000000^2813"CompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/AppDelegate.o36"AEEFC2D8-CE61-4295-A365-4B0D86822546-
+
+CCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.702036
+e347914710.763182
+r1
+xCompileC
+xbuild/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.mecd9b3d6c1bcb441^6b60c3d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m0000000000000000^2848"CompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/MainViewController.o36"F97D0787-85D1-40DA-BFE9-0B6EAA276AB3-
+
+CCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.702563
+e347914710.733563
+r1
+xCompileC
+xbuild/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m7ffab3d6c1bcb441^3ecbbbd6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m0000000000000000^2783"CompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/Model.o36"5B5F7F11-5F86-4928-BB65-10D2D29B6841-
+
+CCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.701980
+e347914710.756083
+r1
+xCompileC
+xbuild/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m4dd7b3d6c1bcb441^de8dc1d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m0000000000000000^2868"CompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/SettingsViewController.o36"C5150A22-9C55-4933-BBF0-96411109531E-
+
+CCompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.702001
+e347914710.732194
+r1
+xCompileC
+xbuild/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.mf5d7b3d6c1bcb441^de74bbd6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m0000000000000000^2778"CompileC build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/main.o36"1C9CEFCD-BCDE-49E1-890D-6B61C0D95586-
+
+CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
+s347914710.900529
+e347914711.778552
+r1
+xCompileXIB
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib809ae6d6c1bcb441^a54fc7d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib0000000000000000^787"CompileXIB RIIS-CodeMash/en.lproj/MainViewController.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/MainViewController.nib /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"0F6F54E3-A550-4558-A676-2051E61FB9AA-
+
+CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
+s347914710.900541
+e347914711.688841
+r1
+xCompileXIB
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xibd097e6d6c1bcb441^3658b0d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib0000000000000000^799"CompileXIB RIIS-CodeMash/en.lproj/SettingsViewController.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/SettingsViewController.nib /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"D0706A67-C7E9-457B-B28F-5649CD815E2F-
+
+CCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Default.png RIIS-CodeMash/Default.png
+s347914710.900509
+e347914711.350617
+r1
+xCopyPNGFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Default.png
+xRIIS-CodeMash/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/Default.png RIIS-CodeMash/Default.pngd49ae6d6c1bcb441^2bc259d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png0000000000000000^655"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/Default.png RIIS-CodeMash/Default.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Default.png36"46B2CBCD-5741-4215-B8F6-52CBEFE460D1-
+
+CCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png RIIS-CodeMash/bigButton_DOWN.png
+s347914710.900106
+e347914711.167804
+r1
+xCopyPNGFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png
+xRIIS-CodeMash/bigButton_DOWN.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png RIIS-CodeMash/bigButton_DOWN.pnge882e6d6c1bcb441^1ff62ad7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png0000000000000000^683"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png RIIS-CodeMash/bigButton_DOWN.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_DOWN.png36"5BA676E4-5E11-4B1C-8AC8-0879FF7C1BFF-
+
+CCopyPNGFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png RIIS-CodeMash/bigButton_UP.png
+s347914710.900109
+e347914711.215834
+r1
+xCopyPNGFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png
+xRIIS-CodeMash/bigButton_UP.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png RIIS-CodeMash/bigButton_UP.pnge483e6d6c1bcb441^d54037d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png0000000000000000^675"CopyPNGFile build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png RIIS-CodeMash/bigButton_UP.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/bigButton_UP.png36"ECECE3D9-7086-47EA-9FA3-2FC3DE09DF36-
+
+CCopyStringsFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/InfoPlist.strings RIIS-CodeMash/en.lproj/InfoPlist.strings
+s347914710.900092
+e347914710.903317
+r1
+xCopyStringsFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/InfoPlist.strings
+xRIIS-CodeMash/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy RIIS-CodeMash/en.lproj/InfoPlist.stringscc7de6d6c1bcb441^a340e7d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/InfoPlist.strings0000000000000000^583"CopyStringsFile build/Release-iphoneos/RIIS-CodeMash.app/en.lproj/InfoPlist.strings RIIS-CodeMash/en.lproj/InfoPlist.strings    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/en.lproj -- RIIS-CodeMash/en.lproj/InfoPlist.strings36"CEE77B41-0E04-4211-8EBB-4C7F44AD515F-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist
+s347914710.406095
+e347914710.408731
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist331768d6c1bcb441^44a268d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist00f4bcdadcffdf42^700"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app36"361E75C1-BF38-4665-81CB-3AD48CBA6F1F-
+
+CGenerateDSYMFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash
+s347914710.875775
+e347914710.891853
+r1
+xGenerateDSYMFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generating /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM4e43e0d6c1bcb441^be50e4d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM00f4bcdadcffdf42^576"GenerateDSYMFile build/Release-iphoneos/RIIS-CodeMash.app.dSYM build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app.dSYM36"197BDB7D-C784-4131-A459-01DE5131E243-
+
+CLd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash normal armv7
+s347914710.793131
+e347914710.868992
+r1
+xLd
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash
+xnormal
+xarmv7
+old: warning: directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash984ecbd6c1bcb441^7576ded6c1bcb441^-130"ld: warning: directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'1(21%IDEActivityLogMessage2@116"Directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'-347914710#0#130#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--1105"Ld build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash normal armv7    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -filelist /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/Objects-normal/armv7/RIIS-CodeMash.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/RIIS-CodeMash36"CAF38273-2AC1-42B4-A903-D3E299F707B6-
+
+CProcessInfoPlistFile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Info.plist RIIS-CodeMash/RIIS-CodeMash-Info.plist
+s347914710.406091
+e347914710.411269
+r1
+xProcessInfoPlistFile
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Info.plist
+xRIIS-CodeMash/RIIS-CodeMash-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process RIIS-CodeMash/RIIS-CodeMash-Info.plistdb1768d6c1bcb441^fe4869d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Info.plist0000000000000000^801"ProcessInfoPlistFile build/Release-iphoneos/RIIS-CodeMash.app/Info.plist RIIS-CodeMash/RIIS-CodeMash-Info.plist    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility RIIS-CodeMash/RIIS-CodeMash-Info.plist -genpkginfo /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/ResourceRules.plist -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/Info.plist36"3E3A2D14-F27B-434E-9C87-D2A59758CFFB-
+
+CProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s347914710.419340
+e347914710.695232
+r1
+xProcessPCH
+x/var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth
+xRIIS-CodeMash/RIIS-CodeMash-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile RIIS-CodeMash/RIIS-CodeMash-Prefix.pchec886bd6c1bcb441^a9fab1d6c1bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch0000000000000000^2793"ProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-generated-files.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-own-target-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-all-target-headers.hmap -iquote /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash-project-headers.hmap -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch -o /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-gvbdrxokkfnouodplkwqfbnryxys/RIIS-CodeMash-Prefix.pch.d36"9C3B4856-40B2-4356-8781-2CAB9D66C2F3-
+
+CProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision
+s347914711.796810
+e347914711.799342
+r1
+xProcessProductPackaging
+x/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision3716ccd7c1bcb441^7ba1ccd7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision0000000000000000^691"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/Admin/Library/MobileDevice/Provisioning Profiles/F63156F9-F137-499B-9E4B-A933B19C5D76.mobileprovision" -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/embedded.mobileprovision36"73C16CDD-BA87-4100-B09B-0959CCD94E5C-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent
+s347914711.819745
+e347914711.823332
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection195"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcentb7ebd1d7c1bcb441^c1c5d2d7c1bcb441^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent00f4bcdadcffdf42^707"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Release-iphoneos/RIIS-CodeMash.build/RIIS-CodeMash.xcent36"322E8891-A52F-4B57-8D36-583FDAE90E41-
+
+CTouch /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+s347914711.807318
+e347914711.811689
+r1
+xTouch
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.appb9c3ced7c1bcb441^4bcccfd7c1bcb441^---0#0#0#--384"Touch build/Release-iphoneos/RIIS-CodeMash.app    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app36"0E624446-0832-49C8-BF8A-77EFD4C2ACD7-
+
+CValidate /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+s347914711.979786
+e347914712.696004
+r1
+xValidate
+x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Validate build/Release-iphoneos/RIIS-CodeMash.app5febfad7c1bcb441^732db2d8c1bcb441^-258"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57347914712#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app/0000000000000000^496"Validate build/Release-iphoneos/RIIS-CodeMash.app    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Release-iphoneos/RIIS-CodeMash.app36"4651EE93-2952-4707-914D-B914411D3E8B-
+

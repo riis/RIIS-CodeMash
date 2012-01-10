@@ -7,6 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84F997BE14BCBED800F30AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AA914BB8EE3000EAB6D /* main.m */; };
+		84F997BF14BCBED800F30AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AAD14BB8EE3000EAB6D /* AppDelegate.m */; };
+		84F997C014BCBED800F30AA3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61ADF14BB9029000EAB6D /* MainViewController.m */; };
+		84F997C114BCBED800F30AA3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE114BB9029000EAB6D /* Model.m */; };
+		84F997C214BCBED800F30AA3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE314BB9029000EAB6D /* SettingsViewController.m */; };
+		84F997C414BCBED800F30AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */; };
+		84F997C514BCBED800F30AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */; };
+		84F997C614BCBED800F30AA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */; };
+		84F997C814BCBED800F30AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AA614BB8EE3000EAB6D /* InfoPlist.strings */; };
+		84F997C914BCBED800F30AA3 /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD014BB8F6D000EAB6D /* bigButton_DOWN.png */; };
+		84F997CA14BCBED800F30AA3 /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD114BB8F6D000EAB6D /* bigButton_UP.png */; };
+		84F997CB14BCBED800F30AA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD214BB8F6D000EAB6D /* Default.png */; };
+		84F997CC14BCBED800F30AA3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE714BB9089000EAB6D /* MainViewController.xib */; };
+		84F997CD14BCBED800F30AA3 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE914BB9089000EAB6D /* SettingsViewController.xib */; };
+		84F9982914BCBEFB00F30AA3 /* iphonesim in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D614BCBEF900F30AA3 /* iphonesim */; };
+		84F9982A14BCBEFB00F30AA3 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D714BCBEF900F30AA3 /* COPYRIGHT */; };
+		84F9982B14BCBEFB00F30AA3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D914BCBEF900F30AA3 /* index.html */; };
+		84F9982C14BCBEFB00F30AA3 /* extralibs.zip in Resources */ = {isa = PBXBuildFile; fileRef = 84F997DA14BCBEF900F30AA3 /* extralibs.zip */; };
+		84F9982D14BCBEFB00F30AA3 /* FoneMonkeyRunner.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F997DB14BCBEF900F30AA3 /* FoneMonkeyRunner.plist */; };
+		84F9982E14BCBEFB00F30AA3 /* libFoneMonkey.5.5b.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F997E414BCBEF900F30AA3 /* libFoneMonkey.5.5b.a */; };
+		84F9982F14BCBEFB00F30AA3 /* libFoneMonkeyOCUnit.5.5b.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F997E514BCBEF900F30AA3 /* libFoneMonkeyOCUnit.5.5b.a */; };
+		84F9983014BCBEFB00F30AA3 /* ReleaseNotes.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E614BCBEF900F30AA3 /* ReleaseNotes.html */; };
+		84F9983114BCBEFB00F30AA3 /* FMClear.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E814BCBEF900F30AA3 /* FMClear.png */; };
+		84F9983214BCBEFB00F30AA3 /* FMCommand.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E914BCBEF900F30AA3 /* FMCommand.png */; };
+		84F9983314BCBEFB00F30AA3 /* FMCommandEditViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EA14BCBEF900F30AA3 /* FMCommandEditViewController_iPad.xib */; };
+		84F9983414BCBEFB00F30AA3 /* FMCommandEditViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EB14BCBEF900F30AA3 /* FMCommandEditViewController_iPhone.xib */; };
+		84F9983514BCBEFB00F30AA3 /* FMConsoleController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EC14BCBEF900F30AA3 /* FMConsoleController_iPad.xib */; };
+		84F9983614BCBEFB00F30AA3 /* FMConsoleController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997ED14BCBEF900F30AA3 /* FMConsoleController_iPhone.xib */; };
+		84F9983714BCBEFB00F30AA3 /* FMDataDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EE14BCBEF900F30AA3 /* FMDataDrive.png */; };
+		84F9983814BCBEFB00F30AA3 /* FMDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EF14BCBEF900F30AA3 /* FMDelete.png */; };
+		84F9983914BCBEFB00F30AA3 /* FMEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F014BCBEF900F30AA3 /* FMEdit.png */; };
+		84F9983A14BCBEFB00F30AA3 /* FMGetVariable.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F114BCBEF900F30AA3 /* FMGetVariable.png */; };
+		84F9983B14BCBEFB00F30AA3 /* FMGorilla_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F214BCBEF900F30AA3 /* FMGorilla_iPad.xib */; };
+		84F9983C14BCBEFB00F30AA3 /* FMGorilla_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F314BCBEF900F30AA3 /* FMGorilla_iPhone.xib */; };
+		84F9983D14BCBEFB00F30AA3 /* FMGorillaView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F414BCBEF900F30AA3 /* FMGorillaView_iPad.xib */; };
+		84F9983E14BCBEFB00F30AA3 /* FMGorillaView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F514BCBEF900F30AA3 /* FMGorillaView_iPhone.xib */; };
+		84F9983F14BCBEFB00F30AA3 /* FMInputText.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F614BCBEF900F30AA3 /* FMInputText.png */; };
+		84F9984014BCBEFB00F30AA3 /* FMObjConnect.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F714BCBEF900F30AA3 /* FMObjConnect.html */; };
+		84F9984114BCBEFB00F30AA3 /* FMObjConnect.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F814BCBEF900F30AA3 /* FMObjConnect.jslib */; };
+		84F9984214BCBEFB00F30AA3 /* FMOpenScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F914BCBEF900F30AA3 /* FMOpenScriptDialog_iPad.xib */; };
+		84F9984314BCBEFB00F30AA3 /* FMOpenScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FA14BCBEF900F30AA3 /* FMOpenScriptDialog_iPhone.xib */; };
+		84F9984414BCBEFB00F30AA3 /* FMPauseMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FB14BCBEF900F30AA3 /* FMPauseMovie.png */; };
+		84F9984514BCBEFB00F30AA3 /* FMPlayMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FC14BCBEF900F30AA3 /* FMPlayMovie.png */; };
+		84F9984614BCBEFB00F30AA3 /* FMQunitAPI.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FD14BCBEF900F30AA3 /* FMQunitAPI.jslib */; };
+		84F9984714BCBEFB00F30AA3 /* FMReturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FE14BCBEF900F30AA3 /* FMReturn.png */; };
+		84F9984814BCBEFB00F30AA3 /* FMRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FF14BCBEF900F30AA3 /* FMRotate.png */; };
+		84F9984914BCBEFB00F30AA3 /* FMSaveScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980014BCBEF900F30AA3 /* FMSaveScriptDialog_iPad.xib */; };
+		84F9984A14BCBEFB00F30AA3 /* FMSaveScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980114BCBEF900F30AA3 /* FMSaveScriptDialog_iPhone.xib */; };
+		84F9984B14BCBEFB00F30AA3 /* FMTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980214BCBEF900F30AA3 /* FMTouch.png */; };
+		84F9984C14BCBEFB00F30AA3 /* FMWebDriver.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980314BCBEF900F30AA3 /* FMWebDriver.png */; };
+		84F9984D14BCBEFB00F30AA3 /* FoneMonkey.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980414BCBEF900F30AA3 /* FoneMonkey.jslib */; };
+		84F9984E14BCBEFB00F30AA3 /* gorilla-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980514BCBEF900F30AA3 /* gorilla-32.png */; };
+		84F9984F14BCBEFB00F30AA3 /* gorillalogic.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980614BCBEF900F30AA3 /* gorillalogic.png */; };
+		84F9985014BCBEFB00F30AA3 /* icon_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980714BCBEF900F30AA3 /* icon_arrow_down.png */; };
+		84F9985114BCBEFB00F30AA3 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980814BCBEF900F30AA3 /* icon_arrow_up.png */; };
+		84F9985214BCBEFB00F30AA3 /* icon_controls_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980914BCBEF900F30AA3 /* icon_controls_3.png */; };
+		84F9985314BCBEFB00F30AA3 /* icon_controls_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980A14BCBEF900F30AA3 /* icon_controls_4.png */; };
+		84F9985414BCBEFB00F30AA3 /* icon_filming.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980B14BCBEF900F30AA3 /* icon_filming.png */; };
+		84F9985514BCBEFB00F30AA3 /* icon_script.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980C14BCBEF900F30AA3 /* icon_script.png */; };
+		84F9985614BCBEFB00F30AA3 /* icon_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980D14BCBEF900F30AA3 /* icon_timer.png */; };
+		84F9985714BCBEFB00F30AA3 /* jquery-latest.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980E14BCBEF900F30AA3 /* jquery-latest.jslib */; };
+		84F9985814BCBEFB00F30AA3 /* Move.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980F14BCBEF900F30AA3 /* Move.png */; };
+		84F9985914BCBEFB00F30AA3 /* objc.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981014BCBEF900F30AA3 /* objc.template */; };
+		84F9985A14BCBEFB00F30AA3 /* optionsBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981114BCBEF900F30AA3 /* optionsBg.png */; };
+		84F9985B14BCBEFB00F30AA3 /* optionsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981214BCBEF900F30AA3 /* optionsIcon.png */; };
+		84F9985C14BCBEFB00F30AA3 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981314BCBEF900F30AA3 /* Pause.png */; };
+		84F9985D14BCBEFB00F30AA3 /* qunit.css in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981414BCBEF900F30AA3 /* qunit.css */; };
+		84F9985E14BCBEFB00F30AA3 /* qunit.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981514BCBEF900F30AA3 /* qunit.jslib */; };
+		84F9985F14BCBEFB00F30AA3 /* qunit.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981614BCBEF900F30AA3 /* qunit.template */; };
+		84F9986014BCBEFB00F30AA3 /* Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981714BCBEF900F30AA3 /* Scroll.png */; };
+		84F9986114BCBEFB00F30AA3 /* ScrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981814BCBEF900F30AA3 /* ScrollDown.png */; };
+		84F9986214BCBEFB00F30AA3 /* ScrollLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981914BCBEF900F30AA3 /* ScrollLeft.png */; };
+		84F9986314BCBEFB00F30AA3 /* ScrollRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981A14BCBEF900F30AA3 /* ScrollRight.png */; };
+		84F9986414BCBEFB00F30AA3 /* ScrollUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981B14BCBEF900F30AA3 /* ScrollUp.png */; };
+		84F9986514BCBEFB00F30AA3 /* Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981C14BCBEF900F30AA3 /* Select.png */; };
+		84F9986614BCBEFB00F30AA3 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981D14BCBEF900F30AA3 /* shadow.png */; };
+		84F9986714BCBEFB00F30AA3 /* shadowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981E14BCBEF900F30AA3 /* shadowUp.png */; };
+		84F9986814BCBEFB00F30AA3 /* Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981F14BCBEF900F30AA3 /* Shake.png */; };
+		84F9986914BCBEFB00F30AA3 /* Slide.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982014BCBEF900F30AA3 /* Slide.png */; };
+		84F9986A14BCBEFB00F30AA3 /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982114BCBEF900F30AA3 /* Switch.png */; };
+		84F9986B14BCBEFB00F30AA3 /* Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982214BCBEF900F30AA3 /* Tab.png */; };
+		84F9986C14BCBEFB00F30AA3 /* TouchLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982314BCBEF900F30AA3 /* TouchLeft.png */; };
+		84F9986D14BCBEFB00F30AA3 /* TouchRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982414BCBEF900F30AA3 /* TouchRight.png */; };
+		84F9986E14BCBEFB00F30AA3 /* uiautomation.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982514BCBEF900F30AA3 /* uiautomation.template */; };
+		84F9986F14BCBEFB00F30AA3 /* Verify.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982614BCBEF900F30AA3 /* Verify.png */; };
+		84F9987014BCBEFB00F30AA3 /* VScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982714BCBEF900F30AA3 /* VScroll.png */; };
+		84F9987114BCBEFB00F30AA3 /* WaitFor.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982814BCBEF900F30AA3 /* WaitFor.png */; };
+		84F9987214BCBF1600F30AA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9F5F314BCBA7E00F30AA3 /* QuartzCore.framework */; };
+		84F9987314BCBF3000F30AA3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AB514BB8EE3000EAB6D /* SenTestingKit.framework */; };
+		84F9987414BCBF5E00F30AA3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9F5F514BCBAB400F30AA3 /* libxml2.dylib */; };
+		84F9988F14BCC42400F30AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AA914BB8EE3000EAB6D /* main.m */; };
+		84F9989014BCC42400F30AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AAD14BB8EE3000EAB6D /* AppDelegate.m */; };
+		84F9989114BCC42400F30AA3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61ADF14BB9029000EAB6D /* MainViewController.m */; };
+		84F9989214BCC42400F30AA3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE114BB9029000EAB6D /* Model.m */; };
+		84F9989314BCC42400F30AA3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A61AE314BB9029000EAB6D /* SettingsViewController.m */; };
+		84F9989514BCC42400F30AA3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9F5F514BCBAB400F30AA3 /* libxml2.dylib */; };
+		84F9989614BCC42400F30AA3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AB514BB8EE3000EAB6D /* SenTestingKit.framework */; };
+		84F9989714BCC42400F30AA3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F9F5F314BCBA7E00F30AA3 /* QuartzCore.framework */; };
+		84F9989814BCC42400F30AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */; };
+		84F9989914BCC42400F30AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */; };
+		84F9989A14BCC42400F30AA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */; };
+		84F9989E14BCC42400F30AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AA614BB8EE3000EAB6D /* InfoPlist.strings */; };
+		84F9989F14BCC42400F30AA3 /* bigButton_DOWN.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD014BB8F6D000EAB6D /* bigButton_DOWN.png */; };
+		84F998A014BCC42400F30AA3 /* bigButton_UP.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD114BB8F6D000EAB6D /* bigButton_UP.png */; };
+		84F998A114BCC42400F30AA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AD214BB8F6D000EAB6D /* Default.png */; };
+		84F998A214BCC42400F30AA3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE714BB9089000EAB6D /* MainViewController.xib */; };
+		84F998A314BCC42400F30AA3 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A61AE914BB9089000EAB6D /* SettingsViewController.xib */; };
+		84F998A414BCC42400F30AA3 /* iphonesim in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D614BCBEF900F30AA3 /* iphonesim */; };
+		84F998A514BCC42400F30AA3 /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D714BCBEF900F30AA3 /* COPYRIGHT */; };
+		84F998A614BCC42400F30AA3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997D914BCBEF900F30AA3 /* index.html */; };
+		84F998A714BCC42400F30AA3 /* extralibs.zip in Resources */ = {isa = PBXBuildFile; fileRef = 84F997DA14BCBEF900F30AA3 /* extralibs.zip */; };
+		84F998A814BCC42400F30AA3 /* FoneMonkeyRunner.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F997DB14BCBEF900F30AA3 /* FoneMonkeyRunner.plist */; };
+		84F998A914BCC42400F30AA3 /* ReleaseNotes.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E614BCBEF900F30AA3 /* ReleaseNotes.html */; };
+		84F998AA14BCC42400F30AA3 /* FMClear.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E814BCBEF900F30AA3 /* FMClear.png */; };
+		84F998AB14BCC42400F30AA3 /* FMCommand.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997E914BCBEF900F30AA3 /* FMCommand.png */; };
+		84F998AC14BCC42400F30AA3 /* FMCommandEditViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EA14BCBEF900F30AA3 /* FMCommandEditViewController_iPad.xib */; };
+		84F998AD14BCC42400F30AA3 /* FMCommandEditViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EB14BCBEF900F30AA3 /* FMCommandEditViewController_iPhone.xib */; };
+		84F998AE14BCC42400F30AA3 /* FMConsoleController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EC14BCBEF900F30AA3 /* FMConsoleController_iPad.xib */; };
+		84F998AF14BCC42400F30AA3 /* FMConsoleController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997ED14BCBEF900F30AA3 /* FMConsoleController_iPhone.xib */; };
+		84F998B014BCC42400F30AA3 /* FMDataDrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EE14BCBEF900F30AA3 /* FMDataDrive.png */; };
+		84F998B114BCC42400F30AA3 /* FMDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997EF14BCBEF900F30AA3 /* FMDelete.png */; };
+		84F998B214BCC42400F30AA3 /* FMEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F014BCBEF900F30AA3 /* FMEdit.png */; };
+		84F998B314BCC42400F30AA3 /* FMGetVariable.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F114BCBEF900F30AA3 /* FMGetVariable.png */; };
+		84F998B414BCC42400F30AA3 /* FMGorilla_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F214BCBEF900F30AA3 /* FMGorilla_iPad.xib */; };
+		84F998B514BCC42400F30AA3 /* FMGorilla_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F314BCBEF900F30AA3 /* FMGorilla_iPhone.xib */; };
+		84F998B614BCC42400F30AA3 /* FMGorillaView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F414BCBEF900F30AA3 /* FMGorillaView_iPad.xib */; };
+		84F998B714BCC42400F30AA3 /* FMGorillaView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F514BCBEF900F30AA3 /* FMGorillaView_iPhone.xib */; };
+		84F998B814BCC42400F30AA3 /* FMInputText.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F614BCBEF900F30AA3 /* FMInputText.png */; };
+		84F998B914BCC42400F30AA3 /* FMObjConnect.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F714BCBEF900F30AA3 /* FMObjConnect.html */; };
+		84F998BA14BCC42400F30AA3 /* FMObjConnect.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F814BCBEF900F30AA3 /* FMObjConnect.jslib */; };
+		84F998BB14BCC42400F30AA3 /* FMOpenScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997F914BCBEF900F30AA3 /* FMOpenScriptDialog_iPad.xib */; };
+		84F998BC14BCC42400F30AA3 /* FMOpenScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FA14BCBEF900F30AA3 /* FMOpenScriptDialog_iPhone.xib */; };
+		84F998BD14BCC42400F30AA3 /* FMPauseMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FB14BCBEF900F30AA3 /* FMPauseMovie.png */; };
+		84F998BE14BCC42400F30AA3 /* FMPlayMovie.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FC14BCBEF900F30AA3 /* FMPlayMovie.png */; };
+		84F998BF14BCC42400F30AA3 /* FMQunitAPI.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FD14BCBEF900F30AA3 /* FMQunitAPI.jslib */; };
+		84F998C014BCC42400F30AA3 /* FMReturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FE14BCBEF900F30AA3 /* FMReturn.png */; };
+		84F998C114BCC42400F30AA3 /* FMRotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F997FF14BCBEF900F30AA3 /* FMRotate.png */; };
+		84F998C214BCC42400F30AA3 /* FMSaveScriptDialog_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980014BCBEF900F30AA3 /* FMSaveScriptDialog_iPad.xib */; };
+		84F998C314BCC42400F30AA3 /* FMSaveScriptDialog_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980114BCBEF900F30AA3 /* FMSaveScriptDialog_iPhone.xib */; };
+		84F998C414BCC42400F30AA3 /* FMTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980214BCBEF900F30AA3 /* FMTouch.png */; };
+		84F998C514BCC42400F30AA3 /* FMWebDriver.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980314BCBEF900F30AA3 /* FMWebDriver.png */; };
+		84F998C614BCC42400F30AA3 /* FoneMonkey.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980414BCBEF900F30AA3 /* FoneMonkey.jslib */; };
+		84F998C714BCC42400F30AA3 /* gorilla-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980514BCBEF900F30AA3 /* gorilla-32.png */; };
+		84F998C814BCC42400F30AA3 /* gorillalogic.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980614BCBEF900F30AA3 /* gorillalogic.png */; };
+		84F998C914BCC42400F30AA3 /* icon_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980714BCBEF900F30AA3 /* icon_arrow_down.png */; };
+		84F998CA14BCC42400F30AA3 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980814BCBEF900F30AA3 /* icon_arrow_up.png */; };
+		84F998CB14BCC42400F30AA3 /* icon_controls_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980914BCBEF900F30AA3 /* icon_controls_3.png */; };
+		84F998CC14BCC42400F30AA3 /* icon_controls_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980A14BCBEF900F30AA3 /* icon_controls_4.png */; };
+		84F998CD14BCC42400F30AA3 /* icon_filming.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980B14BCBEF900F30AA3 /* icon_filming.png */; };
+		84F998CE14BCC42400F30AA3 /* icon_script.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980C14BCBEF900F30AA3 /* icon_script.png */; };
+		84F998CF14BCC42400F30AA3 /* icon_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980D14BCBEF900F30AA3 /* icon_timer.png */; };
+		84F998D014BCC42400F30AA3 /* jquery-latest.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980E14BCBEF900F30AA3 /* jquery-latest.jslib */; };
+		84F998D114BCC42400F30AA3 /* Move.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9980F14BCBEF900F30AA3 /* Move.png */; };
+		84F998D214BCC42400F30AA3 /* objc.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981014BCBEF900F30AA3 /* objc.template */; };
+		84F998D314BCC42400F30AA3 /* optionsBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981114BCBEF900F30AA3 /* optionsBg.png */; };
+		84F998D414BCC42400F30AA3 /* optionsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981214BCBEF900F30AA3 /* optionsIcon.png */; };
+		84F998D514BCC42400F30AA3 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981314BCBEF900F30AA3 /* Pause.png */; };
+		84F998D614BCC42400F30AA3 /* qunit.css in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981414BCBEF900F30AA3 /* qunit.css */; };
+		84F998D714BCC42400F30AA3 /* qunit.jslib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981514BCBEF900F30AA3 /* qunit.jslib */; };
+		84F998D814BCC42400F30AA3 /* qunit.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981614BCBEF900F30AA3 /* qunit.template */; };
+		84F998D914BCC42400F30AA3 /* Scroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981714BCBEF900F30AA3 /* Scroll.png */; };
+		84F998DA14BCC42400F30AA3 /* ScrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981814BCBEF900F30AA3 /* ScrollDown.png */; };
+		84F998DB14BCC42400F30AA3 /* ScrollLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981914BCBEF900F30AA3 /* ScrollLeft.png */; };
+		84F998DC14BCC42400F30AA3 /* ScrollRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981A14BCBEF900F30AA3 /* ScrollRight.png */; };
+		84F998DD14BCC42400F30AA3 /* ScrollUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981B14BCBEF900F30AA3 /* ScrollUp.png */; };
+		84F998DE14BCC42400F30AA3 /* Select.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981C14BCBEF900F30AA3 /* Select.png */; };
+		84F998DF14BCC42400F30AA3 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981D14BCBEF900F30AA3 /* shadow.png */; };
+		84F998E014BCC42400F30AA3 /* shadowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981E14BCBEF900F30AA3 /* shadowUp.png */; };
+		84F998E114BCC42400F30AA3 /* Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9981F14BCBEF900F30AA3 /* Shake.png */; };
+		84F998E214BCC42400F30AA3 /* Slide.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982014BCBEF900F30AA3 /* Slide.png */; };
+		84F998E314BCC42400F30AA3 /* Switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982114BCBEF900F30AA3 /* Switch.png */; };
+		84F998E414BCC42400F30AA3 /* Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982214BCBEF900F30AA3 /* Tab.png */; };
+		84F998E514BCC42400F30AA3 /* TouchLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982314BCBEF900F30AA3 /* TouchLeft.png */; };
+		84F998E614BCC42400F30AA3 /* TouchRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982414BCBEF900F30AA3 /* TouchRight.png */; };
+		84F998E714BCC42400F30AA3 /* uiautomation.template in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982514BCBEF900F30AA3 /* uiautomation.template */; };
+		84F998E814BCC42400F30AA3 /* Verify.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982614BCBEF900F30AA3 /* Verify.png */; };
+		84F998E914BCC42400F30AA3 /* VScroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982714BCBEF900F30AA3 /* VScroll.png */; };
+		84F998EA14BCC42400F30AA3 /* WaitFor.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F9982814BCBEF900F30AA3 /* WaitFor.png */; };
+		84F998F614BCC99A00F30AA3 /* libFoneMonkey.5.5b.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F997E414BCBEF900F30AA3 /* libFoneMonkey.5.5b.a */; };
+		84F998F714BCC9AA00F30AA3 /* libFoneMonkeyOCUnit.5.5b.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F997E514BCBEF900F30AA3 /* libFoneMonkeyOCUnit.5.5b.a */; };
+		84F9996214BCD71100F30AA3 /* SampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F9996114BCD71100F30AA3 /* SampleTest.m */; };
+		84F9996714BCDA3F00F30AA3 /* RIIS-CodeMashMonkey copy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F9996614BCDA3F00F30AA3 /* RIIS-CodeMashMonkey copy-Info.plist */; };
 		C4A61A9E14BB8EE3000EAB6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */; };
 		C4A61AA014BB8EE3000EAB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */; };
 		C4A61AA214BB8EE3000EAB6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A61AA114BB8EE3000EAB6D /* CoreGraphics.framework */; };
@@ -39,6 +221,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84F997D114BCBED800F30AA3 /* RIIS-CodeMash copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIIS-CodeMash copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F997D314BCBEDB00F30AA3 /* RIIS-CodeMash copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RIIS-CodeMash copy-Info.plist"; path = "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash copy-Info.plist"; sourceTree = "<absolute>"; };
+		84F997D614BCBEF900F30AA3 /* iphonesim */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = iphonesim; sourceTree = "<group>"; };
+		84F997D714BCBEF900F30AA3 /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT; sourceTree = "<group>"; };
+		84F997D914BCBEF900F30AA3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		84F997DA14BCBEF900F30AA3 /* extralibs.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = extralibs.zip; sourceTree = "<group>"; };
+		84F997DB14BCBEF900F30AA3 /* FoneMonkeyRunner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoneMonkeyRunner.plist; sourceTree = "<group>"; };
+		84F997DD14BCBEF900F30AA3 /* FMCommandEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMCommandEvent.h; sourceTree = "<group>"; };
+		84F997DE14BCBEF900F30AA3 /* FoneMonkey+OCUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoneMonkey+OCUnit.h"; sourceTree = "<group>"; };
+		84F997DF14BCBEF900F30AA3 /* FoneMonkeyAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoneMonkeyAPI.h; sourceTree = "<group>"; };
+		84F997E014BCBEF900F30AA3 /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSynthesis.h; sourceTree = "<group>"; };
+		84F997E114BCBEF900F30AA3 /* UIControl+FMready.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+FMready.h"; sourceTree = "<group>"; };
+		84F997E214BCBEF900F30AA3 /* UIView+FMReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMReady.h"; sourceTree = "<group>"; };
+		84F997E414BCBEF900F30AA3 /* libFoneMonkey.5.5b.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFoneMonkey.5.5b.a; sourceTree = "<group>"; };
+		84F997E514BCBEF900F30AA3 /* libFoneMonkeyOCUnit.5.5b.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFoneMonkeyOCUnit.5.5b.a; sourceTree = "<group>"; };
+		84F997E614BCBEF900F30AA3 /* ReleaseNotes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ReleaseNotes.html; sourceTree = "<group>"; };
+		84F997E814BCBEF900F30AA3 /* FMClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMClear.png; sourceTree = "<group>"; };
+		84F997E914BCBEF900F30AA3 /* FMCommand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMCommand.png; sourceTree = "<group>"; };
+		84F997EA14BCBEF900F30AA3 /* FMCommandEditViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMCommandEditViewController_iPad.xib; sourceTree = "<group>"; };
+		84F997EB14BCBEF900F30AA3 /* FMCommandEditViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMCommandEditViewController_iPhone.xib; sourceTree = "<group>"; };
+		84F997EC14BCBEF900F30AA3 /* FMConsoleController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMConsoleController_iPad.xib; sourceTree = "<group>"; };
+		84F997ED14BCBEF900F30AA3 /* FMConsoleController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMConsoleController_iPhone.xib; sourceTree = "<group>"; };
+		84F997EE14BCBEF900F30AA3 /* FMDataDrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMDataDrive.png; sourceTree = "<group>"; };
+		84F997EF14BCBEF900F30AA3 /* FMDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMDelete.png; sourceTree = "<group>"; };
+		84F997F014BCBEF900F30AA3 /* FMEdit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMEdit.png; sourceTree = "<group>"; };
+		84F997F114BCBEF900F30AA3 /* FMGetVariable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMGetVariable.png; sourceTree = "<group>"; };
+		84F997F214BCBEF900F30AA3 /* FMGorilla_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorilla_iPad.xib; sourceTree = "<group>"; };
+		84F997F314BCBEF900F30AA3 /* FMGorilla_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorilla_iPhone.xib; sourceTree = "<group>"; };
+		84F997F414BCBEF900F30AA3 /* FMGorillaView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorillaView_iPad.xib; sourceTree = "<group>"; };
+		84F997F514BCBEF900F30AA3 /* FMGorillaView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMGorillaView_iPhone.xib; sourceTree = "<group>"; };
+		84F997F614BCBEF900F30AA3 /* FMInputText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMInputText.png; sourceTree = "<group>"; };
+		84F997F714BCBEF900F30AA3 /* FMObjConnect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FMObjConnect.html; sourceTree = "<group>"; };
+		84F997F814BCBEF900F30AA3 /* FMObjConnect.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FMObjConnect.jslib; sourceTree = "<group>"; };
+		84F997F914BCBEF900F30AA3 /* FMOpenScriptDialog_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOpenScriptDialog_iPad.xib; sourceTree = "<group>"; };
+		84F997FA14BCBEF900F30AA3 /* FMOpenScriptDialog_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOpenScriptDialog_iPhone.xib; sourceTree = "<group>"; };
+		84F997FB14BCBEF900F30AA3 /* FMPauseMovie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMPauseMovie.png; sourceTree = "<group>"; };
+		84F997FC14BCBEF900F30AA3 /* FMPlayMovie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMPlayMovie.png; sourceTree = "<group>"; };
+		84F997FD14BCBEF900F30AA3 /* FMQunitAPI.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FMQunitAPI.jslib; sourceTree = "<group>"; };
+		84F997FE14BCBEF900F30AA3 /* FMReturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMReturn.png; sourceTree = "<group>"; };
+		84F997FF14BCBEF900F30AA3 /* FMRotate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMRotate.png; sourceTree = "<group>"; };
+		84F9980014BCBEF900F30AA3 /* FMSaveScriptDialog_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMSaveScriptDialog_iPad.xib; sourceTree = "<group>"; };
+		84F9980114BCBEF900F30AA3 /* FMSaveScriptDialog_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMSaveScriptDialog_iPhone.xib; sourceTree = "<group>"; };
+		84F9980214BCBEF900F30AA3 /* FMTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMTouch.png; sourceTree = "<group>"; };
+		84F9980314BCBEF900F30AA3 /* FMWebDriver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FMWebDriver.png; sourceTree = "<group>"; };
+		84F9980414BCBEF900F30AA3 /* FoneMonkey.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FoneMonkey.jslib; sourceTree = "<group>"; };
+		84F9980514BCBEF900F30AA3 /* gorilla-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gorilla-32.png"; sourceTree = "<group>"; };
+		84F9980614BCBEF900F30AA3 /* gorillalogic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorillalogic.png; sourceTree = "<group>"; };
+		84F9980714BCBEF900F30AA3 /* icon_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_down.png; sourceTree = "<group>"; };
+		84F9980814BCBEF900F30AA3 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_up.png; sourceTree = "<group>"; };
+		84F9980914BCBEF900F30AA3 /* icon_controls_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_3.png; sourceTree = "<group>"; };
+		84F9980A14BCBEF900F30AA3 /* icon_controls_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_controls_4.png; sourceTree = "<group>"; };
+		84F9980B14BCBEF900F30AA3 /* icon_filming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_filming.png; sourceTree = "<group>"; };
+		84F9980C14BCBEF900F30AA3 /* icon_script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_script.png; sourceTree = "<group>"; };
+		84F9980D14BCBEF900F30AA3 /* icon_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_timer.png; sourceTree = "<group>"; };
+		84F9980E14BCBEF900F30AA3 /* jquery-latest.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "jquery-latest.jslib"; sourceTree = "<group>"; };
+		84F9980F14BCBEF900F30AA3 /* Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Move.png; sourceTree = "<group>"; };
+		84F9981014BCBEF900F30AA3 /* objc.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objc.template; sourceTree = "<group>"; };
+		84F9981114BCBEF900F30AA3 /* optionsBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optionsBg.png; sourceTree = "<group>"; };
+		84F9981214BCBEF900F30AA3 /* optionsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optionsIcon.png; sourceTree = "<group>"; };
+		84F9981314BCBEF900F30AA3 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		84F9981414BCBEF900F30AA3 /* qunit.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qunit.css; sourceTree = "<group>"; };
+		84F9981514BCBEF900F30AA3 /* qunit.jslib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qunit.jslib; sourceTree = "<group>"; };
+		84F9981614BCBEF900F30AA3 /* qunit.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qunit.template; sourceTree = "<group>"; };
+		84F9981714BCBEF900F30AA3 /* Scroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scroll.png; sourceTree = "<group>"; };
+		84F9981814BCBEF900F30AA3 /* ScrollDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollDown.png; sourceTree = "<group>"; };
+		84F9981914BCBEF900F30AA3 /* ScrollLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollLeft.png; sourceTree = "<group>"; };
+		84F9981A14BCBEF900F30AA3 /* ScrollRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollRight.png; sourceTree = "<group>"; };
+		84F9981B14BCBEF900F30AA3 /* ScrollUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScrollUp.png; sourceTree = "<group>"; };
+		84F9981C14BCBEF900F30AA3 /* Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Select.png; sourceTree = "<group>"; };
+		84F9981D14BCBEF900F30AA3 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		84F9981E14BCBEF900F30AA3 /* shadowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadowUp.png; sourceTree = "<group>"; };
+		84F9981F14BCBEF900F30AA3 /* Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shake.png; sourceTree = "<group>"; };
+		84F9982014BCBEF900F30AA3 /* Slide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slide.png; sourceTree = "<group>"; };
+		84F9982114BCBEF900F30AA3 /* Switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switch.png; sourceTree = "<group>"; };
+		84F9982214BCBEF900F30AA3 /* Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tab.png; sourceTree = "<group>"; };
+		84F9982314BCBEF900F30AA3 /* TouchLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchLeft.png; sourceTree = "<group>"; };
+		84F9982414BCBEF900F30AA3 /* TouchRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchRight.png; sourceTree = "<group>"; };
+		84F9982514BCBEF900F30AA3 /* uiautomation.template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uiautomation.template; sourceTree = "<group>"; };
+		84F9982614BCBEF900F30AA3 /* Verify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Verify.png; sourceTree = "<group>"; };
+		84F9982714BCBEF900F30AA3 /* VScroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VScroll.png; sourceTree = "<group>"; };
+		84F9982814BCBEF900F30AA3 /* WaitFor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WaitFor.png; sourceTree = "<group>"; };
+		84F998EE14BCC42400F30AA3 /* RIIS-CodeMashMonkey copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIIS-CodeMashMonkey copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F9996114BCD71100F30AA3 /* SampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleTest.m; path = FoneMonkey/SampleTest.m; sourceTree = "<group>"; };
+		84F9996314BCD75400F30AA3 /* SampleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleTest.h; path = FoneMonkey/SampleTest.h; sourceTree = "<group>"; };
+		84F9996614BCDA3F00F30AA3 /* RIIS-CodeMashMonkey copy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RIIS-CodeMashMonkey copy-Info.plist"; sourceTree = "<group>"; };
+		84F9F5F314BCBA7E00F30AA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84F9F5F514BCBAB400F30AA3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		C4A61A9914BB8EE3000EAB6D /* RIIS-CodeMash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIIS-CodeMash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A61A9D14BB8EE3000EAB6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4A61A9F14BB8EE3000EAB6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +338,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		84F997C314BCBED800F30AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F9987414BCBF5E00F30AA3 /* libxml2.dylib in Frameworks */,
+				84F9987314BCBF3000F30AA3 /* SenTestingKit.framework in Frameworks */,
+				84F9987214BCBF1600F30AA3 /* QuartzCore.framework in Frameworks */,
+				84F997C414BCBED800F30AA3 /* UIKit.framework in Frameworks */,
+				84F997C514BCBED800F30AA3 /* Foundation.framework in Frameworks */,
+				84F997C614BCBED800F30AA3 /* CoreGraphics.framework in Frameworks */,
+				84F9982E14BCBEFB00F30AA3 /* libFoneMonkey.5.5b.a in Frameworks */,
+				84F9982F14BCBEFB00F30AA3 /* libFoneMonkeyOCUnit.5.5b.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F9989414BCC42400F30AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F998F714BCC9AA00F30AA3 /* libFoneMonkeyOCUnit.5.5b.a in Frameworks */,
+				84F998F614BCC99A00F30AA3 /* libFoneMonkey.5.5b.a in Frameworks */,
+				84F9989514BCC42400F30AA3 /* libxml2.dylib in Frameworks */,
+				84F9989614BCC42400F30AA3 /* SenTestingKit.framework in Frameworks */,
+				84F9989714BCC42400F30AA3 /* QuartzCore.framework in Frameworks */,
+				84F9989814BCC42400F30AA3 /* UIKit.framework in Frameworks */,
+				84F9989914BCC42400F30AA3 /* Foundation.framework in Frameworks */,
+				84F9989A14BCC42400F30AA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4A61A9614BB8EE3000EAB6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,13 +391,162 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84F997D414BCBEF900F30AA3 /* FoneMonkey-1 */ = {
+			isa = PBXGroup;
+			children = (
+				84F997D514BCBEF900F30AA3 /* bin */,
+				84F997D714BCBEF900F30AA3 /* COPYRIGHT */,
+				84F997D814BCBEF900F30AA3 /* docs */,
+				84F997DA14BCBEF900F30AA3 /* extralibs.zip */,
+				84F997DB14BCBEF900F30AA3 /* FoneMonkeyRunner.plist */,
+				84F997DC14BCBEF900F30AA3 /* include */,
+				84F997E314BCBEF900F30AA3 /* lib */,
+				84F997E614BCBEF900F30AA3 /* ReleaseNotes.html */,
+				84F997E714BCBEF900F30AA3 /* resources */,
+			);
+			path = "FoneMonkey-1";
+			sourceTree = "<group>";
+		};
+		84F997D514BCBEF900F30AA3 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				84F997D614BCBEF900F30AA3 /* iphonesim */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		84F997D814BCBEF900F30AA3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				84F997D914BCBEF900F30AA3 /* index.html */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		84F997DC14BCBEF900F30AA3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				84F997DD14BCBEF900F30AA3 /* FMCommandEvent.h */,
+				84F997DE14BCBEF900F30AA3 /* FoneMonkey+OCUnit.h */,
+				84F997DF14BCBEF900F30AA3 /* FoneMonkeyAPI.h */,
+				84F997E014BCBEF900F30AA3 /* TouchSynthesis.h */,
+				84F997E114BCBEF900F30AA3 /* UIControl+FMready.h */,
+				84F997E214BCBEF900F30AA3 /* UIView+FMReady.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		84F997E314BCBEF900F30AA3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				84F997E414BCBEF900F30AA3 /* libFoneMonkey.5.5b.a */,
+				84F997E514BCBEF900F30AA3 /* libFoneMonkeyOCUnit.5.5b.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		84F997E714BCBEF900F30AA3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				84F997E814BCBEF900F30AA3 /* FMClear.png */,
+				84F997E914BCBEF900F30AA3 /* FMCommand.png */,
+				84F997EA14BCBEF900F30AA3 /* FMCommandEditViewController_iPad.xib */,
+				84F997EB14BCBEF900F30AA3 /* FMCommandEditViewController_iPhone.xib */,
+				84F997EC14BCBEF900F30AA3 /* FMConsoleController_iPad.xib */,
+				84F997ED14BCBEF900F30AA3 /* FMConsoleController_iPhone.xib */,
+				84F997EE14BCBEF900F30AA3 /* FMDataDrive.png */,
+				84F997EF14BCBEF900F30AA3 /* FMDelete.png */,
+				84F997F014BCBEF900F30AA3 /* FMEdit.png */,
+				84F997F114BCBEF900F30AA3 /* FMGetVariable.png */,
+				84F997F214BCBEF900F30AA3 /* FMGorilla_iPad.xib */,
+				84F997F314BCBEF900F30AA3 /* FMGorilla_iPhone.xib */,
+				84F997F414BCBEF900F30AA3 /* FMGorillaView_iPad.xib */,
+				84F997F514BCBEF900F30AA3 /* FMGorillaView_iPhone.xib */,
+				84F997F614BCBEF900F30AA3 /* FMInputText.png */,
+				84F997F714BCBEF900F30AA3 /* FMObjConnect.html */,
+				84F997F814BCBEF900F30AA3 /* FMObjConnect.jslib */,
+				84F997F914BCBEF900F30AA3 /* FMOpenScriptDialog_iPad.xib */,
+				84F997FA14BCBEF900F30AA3 /* FMOpenScriptDialog_iPhone.xib */,
+				84F997FB14BCBEF900F30AA3 /* FMPauseMovie.png */,
+				84F997FC14BCBEF900F30AA3 /* FMPlayMovie.png */,
+				84F997FD14BCBEF900F30AA3 /* FMQunitAPI.jslib */,
+				84F997FE14BCBEF900F30AA3 /* FMReturn.png */,
+				84F997FF14BCBEF900F30AA3 /* FMRotate.png */,
+				84F9980014BCBEF900F30AA3 /* FMSaveScriptDialog_iPad.xib */,
+				84F9980114BCBEF900F30AA3 /* FMSaveScriptDialog_iPhone.xib */,
+				84F9980214BCBEF900F30AA3 /* FMTouch.png */,
+				84F9980314BCBEF900F30AA3 /* FMWebDriver.png */,
+				84F9980414BCBEF900F30AA3 /* FoneMonkey.jslib */,
+				84F9980514BCBEF900F30AA3 /* gorilla-32.png */,
+				84F9980614BCBEF900F30AA3 /* gorillalogic.png */,
+				84F9980714BCBEF900F30AA3 /* icon_arrow_down.png */,
+				84F9980814BCBEF900F30AA3 /* icon_arrow_up.png */,
+				84F9980914BCBEF900F30AA3 /* icon_controls_3.png */,
+				84F9980A14BCBEF900F30AA3 /* icon_controls_4.png */,
+				84F9980B14BCBEF900F30AA3 /* icon_filming.png */,
+				84F9980C14BCBEF900F30AA3 /* icon_script.png */,
+				84F9980D14BCBEF900F30AA3 /* icon_timer.png */,
+				84F9980E14BCBEF900F30AA3 /* jquery-latest.jslib */,
+				84F9980F14BCBEF900F30AA3 /* Move.png */,
+				84F9981014BCBEF900F30AA3 /* objc.template */,
+				84F9981114BCBEF900F30AA3 /* optionsBg.png */,
+				84F9981214BCBEF900F30AA3 /* optionsIcon.png */,
+				84F9981314BCBEF900F30AA3 /* Pause.png */,
+				84F9981414BCBEF900F30AA3 /* qunit.css */,
+				84F9981514BCBEF900F30AA3 /* qunit.jslib */,
+				84F9981614BCBEF900F30AA3 /* qunit.template */,
+				84F9981714BCBEF900F30AA3 /* Scroll.png */,
+				84F9981814BCBEF900F30AA3 /* ScrollDown.png */,
+				84F9981914BCBEF900F30AA3 /* ScrollLeft.png */,
+				84F9981A14BCBEF900F30AA3 /* ScrollRight.png */,
+				84F9981B14BCBEF900F30AA3 /* ScrollUp.png */,
+				84F9981C14BCBEF900F30AA3 /* Select.png */,
+				84F9981D14BCBEF900F30AA3 /* shadow.png */,
+				84F9981E14BCBEF900F30AA3 /* shadowUp.png */,
+				84F9981F14BCBEF900F30AA3 /* Shake.png */,
+				84F9982014BCBEF900F30AA3 /* Slide.png */,
+				84F9982114BCBEF900F30AA3 /* Switch.png */,
+				84F9982214BCBEF900F30AA3 /* Tab.png */,
+				84F9982314BCBEF900F30AA3 /* TouchLeft.png */,
+				84F9982414BCBEF900F30AA3 /* TouchRight.png */,
+				84F9982514BCBEF900F30AA3 /* uiautomation.template */,
+				84F9982614BCBEF900F30AA3 /* Verify.png */,
+				84F9982714BCBEF900F30AA3 /* VScroll.png */,
+				84F9982814BCBEF900F30AA3 /* WaitFor.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		84F9995C14BCD3EF00F30AA3 /* RIIS-CodeMashMonkey */ = {
+			isa = PBXGroup;
+			children = (
+				84F9995D14BCD43500F30AA3 /* Supporting Files */,
+				84F9996314BCD75400F30AA3 /* SampleTest.h */,
+				84F9996114BCD71100F30AA3 /* SampleTest.m */,
+			);
+			name = "RIIS-CodeMashMonkey";
+			sourceTree = "<group>";
+		};
+		84F9995D14BCD43500F30AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F9996614BCDA3F00F30AA3 /* RIIS-CodeMashMonkey copy-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C4A61A8E14BB8EE3000EAB6D = {
 			isa = PBXGroup;
 			children = (
+				84F9995C14BCD3EF00F30AA3 /* RIIS-CodeMashMonkey */,
+				84F997D414BCBEF900F30AA3 /* FoneMonkey-1 */,
+				84F9F5F514BCBAB400F30AA3 /* libxml2.dylib */,
+				84F9F5F314BCBA7E00F30AA3 /* QuartzCore.framework */,
 				C4A61AA314BB8EE3000EAB6D /* RIIS-CodeMash */,
 				C4A61ABB14BB8EE3000EAB6D /* RIIS-CodeMashTests */,
 				C4A61A9C14BB8EE3000EAB6D /* Frameworks */,
 				C4A61A9A14BB8EE3000EAB6D /* Products */,
+				84F997D314BCBEDB00F30AA3 /* RIIS-CodeMash copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +555,8 @@
 			children = (
 				C4A61A9914BB8EE3000EAB6D /* RIIS-CodeMash.app */,
 				C4A61AB414BB8EE3000EAB6D /* RIIS-CodeMashTests.octest */,
+				84F997D114BCBED800F30AA3 /* RIIS-CodeMash copy.app */,
+				84F998EE14BCC42400F30AA3 /* RIIS-CodeMashMonkey copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +634,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		84F997BC14BCBED800F30AA3 /* RIIS-CodeMashMonkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F997CE14BCBED800F30AA3 /* Build configuration list for PBXNativeTarget "RIIS-CodeMashMonkey" */;
+			buildPhases = (
+				84F997BD14BCBED800F30AA3 /* Sources */,
+				84F997C314BCBED800F30AA3 /* Frameworks */,
+				84F997C714BCBED800F30AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RIIS-CodeMashMonkey";
+			productName = "RIIS-CodeMash";
+			productReference = 84F997D114BCBED800F30AA3 /* RIIS-CodeMash copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F9988D14BCC42400F30AA3 /* RIIS-CodeMashTestRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F998EB14BCC42400F30AA3 /* Build configuration list for PBXNativeTarget "RIIS-CodeMashTestRunner" */;
+			buildPhases = (
+				84F9988E14BCC42400F30AA3 /* Sources */,
+				84F9989414BCC42400F30AA3 /* Frameworks */,
+				84F9989D14BCC42400F30AA3 /* Resources */,
+				84F998F114BCC45B00F30AA3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RIIS-CodeMashTestRunner";
+			productName = "RIIS-CodeMash";
+			productReference = 84F998EE14BCC42400F30AA3 /* RIIS-CodeMashMonkey copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C4A61A9814BB8EE3000EAB6D /* RIIS-CodeMash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4A61AC614BB8EE3000EAB6D /* Build configuration list for PBXNativeTarget "RIIS-CodeMash" */;
@@ -234,6 +719,45 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
+				ar,
+				ca,
+				cs,
+				da,
+				Dutch,
+				el,
+				en_GB,
+				fi,
+				French,
+				German,
+				he,
+				hr,
+				hu,
+				id,
+				Italian,
+				Japanese,
+				ko,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				Spanish,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
 			);
 			mainGroup = C4A61A8E14BB8EE3000EAB6D;
 			productRefGroup = C4A61A9A14BB8EE3000EAB6D /* Products */;
@@ -242,11 +766,182 @@
 			targets = (
 				C4A61A9814BB8EE3000EAB6D /* RIIS-CodeMash */,
 				C4A61AB314BB8EE3000EAB6D /* RIIS-CodeMashTests */,
+				84F997BC14BCBED800F30AA3 /* RIIS-CodeMashMonkey */,
+				84F9988D14BCC42400F30AA3 /* RIIS-CodeMashTestRunner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		84F997C714BCBED800F30AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F997C814BCBED800F30AA3 /* InfoPlist.strings in Resources */,
+				84F997C914BCBED800F30AA3 /* bigButton_DOWN.png in Resources */,
+				84F997CA14BCBED800F30AA3 /* bigButton_UP.png in Resources */,
+				84F997CB14BCBED800F30AA3 /* Default.png in Resources */,
+				84F997CC14BCBED800F30AA3 /* MainViewController.xib in Resources */,
+				84F997CD14BCBED800F30AA3 /* SettingsViewController.xib in Resources */,
+				84F9982914BCBEFB00F30AA3 /* iphonesim in Resources */,
+				84F9982A14BCBEFB00F30AA3 /* COPYRIGHT in Resources */,
+				84F9982B14BCBEFB00F30AA3 /* index.html in Resources */,
+				84F9982C14BCBEFB00F30AA3 /* extralibs.zip in Resources */,
+				84F9982D14BCBEFB00F30AA3 /* FoneMonkeyRunner.plist in Resources */,
+				84F9983014BCBEFB00F30AA3 /* ReleaseNotes.html in Resources */,
+				84F9983114BCBEFB00F30AA3 /* FMClear.png in Resources */,
+				84F9983214BCBEFB00F30AA3 /* FMCommand.png in Resources */,
+				84F9983314BCBEFB00F30AA3 /* FMCommandEditViewController_iPad.xib in Resources */,
+				84F9983414BCBEFB00F30AA3 /* FMCommandEditViewController_iPhone.xib in Resources */,
+				84F9983514BCBEFB00F30AA3 /* FMConsoleController_iPad.xib in Resources */,
+				84F9983614BCBEFB00F30AA3 /* FMConsoleController_iPhone.xib in Resources */,
+				84F9983714BCBEFB00F30AA3 /* FMDataDrive.png in Resources */,
+				84F9983814BCBEFB00F30AA3 /* FMDelete.png in Resources */,
+				84F9983914BCBEFB00F30AA3 /* FMEdit.png in Resources */,
+				84F9983A14BCBEFB00F30AA3 /* FMGetVariable.png in Resources */,
+				84F9983B14BCBEFB00F30AA3 /* FMGorilla_iPad.xib in Resources */,
+				84F9983C14BCBEFB00F30AA3 /* FMGorilla_iPhone.xib in Resources */,
+				84F9983D14BCBEFB00F30AA3 /* FMGorillaView_iPad.xib in Resources */,
+				84F9983E14BCBEFB00F30AA3 /* FMGorillaView_iPhone.xib in Resources */,
+				84F9983F14BCBEFB00F30AA3 /* FMInputText.png in Resources */,
+				84F9984014BCBEFB00F30AA3 /* FMObjConnect.html in Resources */,
+				84F9984114BCBEFB00F30AA3 /* FMObjConnect.jslib in Resources */,
+				84F9984214BCBEFB00F30AA3 /* FMOpenScriptDialog_iPad.xib in Resources */,
+				84F9984314BCBEFB00F30AA3 /* FMOpenScriptDialog_iPhone.xib in Resources */,
+				84F9984414BCBEFB00F30AA3 /* FMPauseMovie.png in Resources */,
+				84F9984514BCBEFB00F30AA3 /* FMPlayMovie.png in Resources */,
+				84F9984614BCBEFB00F30AA3 /* FMQunitAPI.jslib in Resources */,
+				84F9984714BCBEFB00F30AA3 /* FMReturn.png in Resources */,
+				84F9984814BCBEFB00F30AA3 /* FMRotate.png in Resources */,
+				84F9984914BCBEFB00F30AA3 /* FMSaveScriptDialog_iPad.xib in Resources */,
+				84F9984A14BCBEFB00F30AA3 /* FMSaveScriptDialog_iPhone.xib in Resources */,
+				84F9984B14BCBEFB00F30AA3 /* FMTouch.png in Resources */,
+				84F9984C14BCBEFB00F30AA3 /* FMWebDriver.png in Resources */,
+				84F9984D14BCBEFB00F30AA3 /* FoneMonkey.jslib in Resources */,
+				84F9984E14BCBEFB00F30AA3 /* gorilla-32.png in Resources */,
+				84F9984F14BCBEFB00F30AA3 /* gorillalogic.png in Resources */,
+				84F9985014BCBEFB00F30AA3 /* icon_arrow_down.png in Resources */,
+				84F9985114BCBEFB00F30AA3 /* icon_arrow_up.png in Resources */,
+				84F9985214BCBEFB00F30AA3 /* icon_controls_3.png in Resources */,
+				84F9985314BCBEFB00F30AA3 /* icon_controls_4.png in Resources */,
+				84F9985414BCBEFB00F30AA3 /* icon_filming.png in Resources */,
+				84F9985514BCBEFB00F30AA3 /* icon_script.png in Resources */,
+				84F9985614BCBEFB00F30AA3 /* icon_timer.png in Resources */,
+				84F9985714BCBEFB00F30AA3 /* jquery-latest.jslib in Resources */,
+				84F9985814BCBEFB00F30AA3 /* Move.png in Resources */,
+				84F9985914BCBEFB00F30AA3 /* objc.template in Resources */,
+				84F9985A14BCBEFB00F30AA3 /* optionsBg.png in Resources */,
+				84F9985B14BCBEFB00F30AA3 /* optionsIcon.png in Resources */,
+				84F9985C14BCBEFB00F30AA3 /* Pause.png in Resources */,
+				84F9985D14BCBEFB00F30AA3 /* qunit.css in Resources */,
+				84F9985E14BCBEFB00F30AA3 /* qunit.jslib in Resources */,
+				84F9985F14BCBEFB00F30AA3 /* qunit.template in Resources */,
+				84F9986014BCBEFB00F30AA3 /* Scroll.png in Resources */,
+				84F9986114BCBEFB00F30AA3 /* ScrollDown.png in Resources */,
+				84F9986214BCBEFB00F30AA3 /* ScrollLeft.png in Resources */,
+				84F9986314BCBEFB00F30AA3 /* ScrollRight.png in Resources */,
+				84F9986414BCBEFB00F30AA3 /* ScrollUp.png in Resources */,
+				84F9986514BCBEFB00F30AA3 /* Select.png in Resources */,
+				84F9986614BCBEFB00F30AA3 /* shadow.png in Resources */,
+				84F9986714BCBEFB00F30AA3 /* shadowUp.png in Resources */,
+				84F9986814BCBEFB00F30AA3 /* Shake.png in Resources */,
+				84F9986914BCBEFB00F30AA3 /* Slide.png in Resources */,
+				84F9986A14BCBEFB00F30AA3 /* Switch.png in Resources */,
+				84F9986B14BCBEFB00F30AA3 /* Tab.png in Resources */,
+				84F9986C14BCBEFB00F30AA3 /* TouchLeft.png in Resources */,
+				84F9986D14BCBEFB00F30AA3 /* TouchRight.png in Resources */,
+				84F9986E14BCBEFB00F30AA3 /* uiautomation.template in Resources */,
+				84F9986F14BCBEFB00F30AA3 /* Verify.png in Resources */,
+				84F9987014BCBEFB00F30AA3 /* VScroll.png in Resources */,
+				84F9987114BCBEFB00F30AA3 /* WaitFor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F9989D14BCC42400F30AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F9989E14BCC42400F30AA3 /* InfoPlist.strings in Resources */,
+				84F9989F14BCC42400F30AA3 /* bigButton_DOWN.png in Resources */,
+				84F998A014BCC42400F30AA3 /* bigButton_UP.png in Resources */,
+				84F998A114BCC42400F30AA3 /* Default.png in Resources */,
+				84F998A214BCC42400F30AA3 /* MainViewController.xib in Resources */,
+				84F998A314BCC42400F30AA3 /* SettingsViewController.xib in Resources */,
+				84F998A414BCC42400F30AA3 /* iphonesim in Resources */,
+				84F998A514BCC42400F30AA3 /* COPYRIGHT in Resources */,
+				84F998A614BCC42400F30AA3 /* index.html in Resources */,
+				84F998A714BCC42400F30AA3 /* extralibs.zip in Resources */,
+				84F998A814BCC42400F30AA3 /* FoneMonkeyRunner.plist in Resources */,
+				84F998A914BCC42400F30AA3 /* ReleaseNotes.html in Resources */,
+				84F998AA14BCC42400F30AA3 /* FMClear.png in Resources */,
+				84F998AB14BCC42400F30AA3 /* FMCommand.png in Resources */,
+				84F998AC14BCC42400F30AA3 /* FMCommandEditViewController_iPad.xib in Resources */,
+				84F998AD14BCC42400F30AA3 /* FMCommandEditViewController_iPhone.xib in Resources */,
+				84F998AE14BCC42400F30AA3 /* FMConsoleController_iPad.xib in Resources */,
+				84F998AF14BCC42400F30AA3 /* FMConsoleController_iPhone.xib in Resources */,
+				84F998B014BCC42400F30AA3 /* FMDataDrive.png in Resources */,
+				84F998B114BCC42400F30AA3 /* FMDelete.png in Resources */,
+				84F998B214BCC42400F30AA3 /* FMEdit.png in Resources */,
+				84F998B314BCC42400F30AA3 /* FMGetVariable.png in Resources */,
+				84F998B414BCC42400F30AA3 /* FMGorilla_iPad.xib in Resources */,
+				84F998B514BCC42400F30AA3 /* FMGorilla_iPhone.xib in Resources */,
+				84F998B614BCC42400F30AA3 /* FMGorillaView_iPad.xib in Resources */,
+				84F998B714BCC42400F30AA3 /* FMGorillaView_iPhone.xib in Resources */,
+				84F998B814BCC42400F30AA3 /* FMInputText.png in Resources */,
+				84F998B914BCC42400F30AA3 /* FMObjConnect.html in Resources */,
+				84F998BA14BCC42400F30AA3 /* FMObjConnect.jslib in Resources */,
+				84F998BB14BCC42400F30AA3 /* FMOpenScriptDialog_iPad.xib in Resources */,
+				84F998BC14BCC42400F30AA3 /* FMOpenScriptDialog_iPhone.xib in Resources */,
+				84F998BD14BCC42400F30AA3 /* FMPauseMovie.png in Resources */,
+				84F998BE14BCC42400F30AA3 /* FMPlayMovie.png in Resources */,
+				84F998BF14BCC42400F30AA3 /* FMQunitAPI.jslib in Resources */,
+				84F998C014BCC42400F30AA3 /* FMReturn.png in Resources */,
+				84F998C114BCC42400F30AA3 /* FMRotate.png in Resources */,
+				84F998C214BCC42400F30AA3 /* FMSaveScriptDialog_iPad.xib in Resources */,
+				84F998C314BCC42400F30AA3 /* FMSaveScriptDialog_iPhone.xib in Resources */,
+				84F998C414BCC42400F30AA3 /* FMTouch.png in Resources */,
+				84F998C514BCC42400F30AA3 /* FMWebDriver.png in Resources */,
+				84F998C614BCC42400F30AA3 /* FoneMonkey.jslib in Resources */,
+				84F998C714BCC42400F30AA3 /* gorilla-32.png in Resources */,
+				84F998C814BCC42400F30AA3 /* gorillalogic.png in Resources */,
+				84F998C914BCC42400F30AA3 /* icon_arrow_down.png in Resources */,
+				84F998CA14BCC42400F30AA3 /* icon_arrow_up.png in Resources */,
+				84F998CB14BCC42400F30AA3 /* icon_controls_3.png in Resources */,
+				84F998CC14BCC42400F30AA3 /* icon_controls_4.png in Resources */,
+				84F998CD14BCC42400F30AA3 /* icon_filming.png in Resources */,
+				84F998CE14BCC42400F30AA3 /* icon_script.png in Resources */,
+				84F998CF14BCC42400F30AA3 /* icon_timer.png in Resources */,
+				84F998D014BCC42400F30AA3 /* jquery-latest.jslib in Resources */,
+				84F998D114BCC42400F30AA3 /* Move.png in Resources */,
+				84F998D214BCC42400F30AA3 /* objc.template in Resources */,
+				84F998D314BCC42400F30AA3 /* optionsBg.png in Resources */,
+				84F998D414BCC42400F30AA3 /* optionsIcon.png in Resources */,
+				84F998D514BCC42400F30AA3 /* Pause.png in Resources */,
+				84F998D614BCC42400F30AA3 /* qunit.css in Resources */,
+				84F998D714BCC42400F30AA3 /* qunit.jslib in Resources */,
+				84F998D814BCC42400F30AA3 /* qunit.template in Resources */,
+				84F998D914BCC42400F30AA3 /* Scroll.png in Resources */,
+				84F998DA14BCC42400F30AA3 /* ScrollDown.png in Resources */,
+				84F998DB14BCC42400F30AA3 /* ScrollLeft.png in Resources */,
+				84F998DC14BCC42400F30AA3 /* ScrollRight.png in Resources */,
+				84F998DD14BCC42400F30AA3 /* ScrollUp.png in Resources */,
+				84F998DE14BCC42400F30AA3 /* Select.png in Resources */,
+				84F998DF14BCC42400F30AA3 /* shadow.png in Resources */,
+				84F998E014BCC42400F30AA3 /* shadowUp.png in Resources */,
+				84F998E114BCC42400F30AA3 /* Shake.png in Resources */,
+				84F998E214BCC42400F30AA3 /* Slide.png in Resources */,
+				84F998E314BCC42400F30AA3 /* Switch.png in Resources */,
+				84F998E414BCC42400F30AA3 /* Tab.png in Resources */,
+				84F998E514BCC42400F30AA3 /* TouchLeft.png in Resources */,
+				84F998E614BCC42400F30AA3 /* TouchRight.png in Resources */,
+				84F998E714BCC42400F30AA3 /* uiautomation.template in Resources */,
+				84F998E814BCC42400F30AA3 /* Verify.png in Resources */,
+				84F998E914BCC42400F30AA3 /* VScroll.png in Resources */,
+				84F998EA14BCC42400F30AA3 /* WaitFor.png in Resources */,
+				84F9996714BCDA3F00F30AA3 /* RIIS-CodeMashMonkey copy-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4A61A9714BB8EE3000EAB6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +966,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		84F998F114BCC45B00F30AA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export FONEMONKEY_HOME=~/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/\nexport FAMILY=iphone\nexport LOG_FILE=\"$PROJECT_DIR/$TARGETNAME.log\"\nexport FONEMONKEY_ENV=$FONEMONKEY_HOME/FoneMonkeyRunner.plist\n\nrm -f\"$LOG_FILE\"\n$FONEMONKEY_HOME/bin/iphonesim launch \"$CODESIGNING_FOLDER_PATH\" -verbose -sdk $IPHONEOS_DEPLOYMENT_TARGET -family $FAMILY -stderr \"$LOG_FILE\" -env \"$FONEMONKEY_ENV\"";
+		};
 		C4A61AB214BB8EE3000EAB6D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +995,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		84F997BD14BCBED800F30AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F997BE14BCBED800F30AA3 /* main.m in Sources */,
+				84F997BF14BCBED800F30AA3 /* AppDelegate.m in Sources */,
+				84F997C014BCBED800F30AA3 /* MainViewController.m in Sources */,
+				84F997C114BCBED800F30AA3 /* Model.m in Sources */,
+				84F997C214BCBED800F30AA3 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F9988E14BCC42400F30AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F9988F14BCC42400F30AA3 /* main.m in Sources */,
+				84F9989014BCC42400F30AA3 /* AppDelegate.m in Sources */,
+				84F9989114BCC42400F30AA3 /* MainViewController.m in Sources */,
+				84F9989214BCC42400F30AA3 /* Model.m in Sources */,
+				84F9989314BCC42400F30AA3 /* SettingsViewController.m in Sources */,
+				84F9996214BCD71100F30AA3 /* SampleTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4A61A9514BB8EE3000EAB6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +1086,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		84F997CF14BCBED800F30AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMash copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+					"\"$(SRCROOT)/FoneMonkey-1/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "RIIS-CodeMash copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F997D014BCBED800F30AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMash copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+					"\"$(SRCROOT)/FoneMonkey-1/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "RIIS-CodeMash copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84F998EC14BCC42400F30AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMashMonkey copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+					"\"$(SRCROOT)/FoneMonkey-1/lib\"",
+					"\"$(SRCROOT)/FoneMonkey/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "RIIS-CodeMashMonkey copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F998ED14BCC42400F30AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
+				INFOPLIST_FILE = "RIIS-CodeMashMonkey copy-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+					"\"$(SRCROOT)/FoneMonkey-1/lib\"",
+					"\"$(SRCROOT)/FoneMonkey/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "RIIS-CodeMashMonkey copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C4A61AC414BB8EE3000EAB6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,6 +1223,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
 				INFOPLIST_FILE = "RIIS-CodeMash/RIIS-CodeMash-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,6 +1238,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RIIS-CodeMash/RIIS-CodeMash-Prefix.pch";
 				INFOPLIST_FILE = "RIIS-CodeMash/RIIS-CodeMash-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/FoneMonkey/lib\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +1284,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		84F997CE14BCBED800F30AA3 /* Build configuration list for PBXNativeTarget "RIIS-CodeMashMonkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F997CF14BCBED800F30AA3 /* Debug */,
+				84F997D014BCBED800F30AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F998EB14BCC42400F30AA3 /* Build configuration list for PBXNativeTarget "RIIS-CodeMashTestRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F998EC14BCC42400F30AA3 /* Debug */,
+				84F998ED14BCC42400F30AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C4A61A9314BB8EE3000EAB6D /* Build configuration list for PBXProject "RIIS-CodeMash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

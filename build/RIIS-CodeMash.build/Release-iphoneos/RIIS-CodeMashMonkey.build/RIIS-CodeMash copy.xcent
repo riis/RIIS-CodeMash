@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>DYG5XF554D.com.riis.CodeMash.RIIS-CodeMash-copy</string>
+	<key>get-task-allow</key>
+	<false/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>DYG5XF554D.com.riis.CodeMash.RIIS-CodeMash-copy</string>
+	</array>
+</dict>
+</plist>

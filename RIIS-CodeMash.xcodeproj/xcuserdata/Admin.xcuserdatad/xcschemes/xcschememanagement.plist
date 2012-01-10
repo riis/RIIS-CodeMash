@@ -9,9 +9,39 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>RIIS-CodeMashMonkey.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>RIIS-CodeMashTestRunner.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>84F9978C14BCBD7D00F30AA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84F997BC14BCBED800F30AA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84F9988D14BCC42400F30AA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84F9F51C14BCB9AC00F30AA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C4A61A9814BB8EE3000EAB6D</key>
 		<dict>
 			<key>primary</key>

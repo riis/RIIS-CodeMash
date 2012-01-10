@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>FM_ENABLE_AUTOEXIT</key>
-	<string>NO</string>
+	<string>YES</string>
 	<key>FM_ENABLE_SCREENSHOT</key>
 	<string>NONE</string>
 	<key>FM_ENABLE_XML_REPORT</key>
