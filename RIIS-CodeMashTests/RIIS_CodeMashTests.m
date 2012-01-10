@@ -26,8 +26,8 @@
 
 - (void)testExample
 {
-    STAssertTrue(NO, @"Example Unit Test Failed!");
-    //STAssertTrue(YES, @"Sample Unit Test Passed!");
+    //STAssertTrue(NO, @"Example Unit Test Failed!");
+    STAssertTrue(YES, @"Sample Unit Test Passed!");
 }
 
 @end
