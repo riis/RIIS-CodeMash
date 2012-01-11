@@ -12,8 +12,9 @@
 
 - (void) testSample {
     NSString *lastResult = [FoneMonkeyAPI playFile:@"script1.fm"];
-    
-    NSLog(@"***lastResult***: %@", lastResult);
+    printf("***lastResult***");
+    const char *lr = [lastResult cStringUsingEncoding:NSASCIIStringEncoding];
+    printf(lr);
     STAssertNil(lastResult, lastResult);
 }
 
