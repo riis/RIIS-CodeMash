@@ -1,1783 +1,0 @@
-TRIIS-CodeMashMonkey
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist" "RIIS-CodeMash copy-Info.plist"
-cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist"
-cProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy" normal armv7
-cGenerateDSYMFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy"
-cCopyStringsFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/InfoPlist.strings" RIIS-CodeMash/en.lproj/InfoPlist.strings
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png" RIIS-CodeMash/bigButton_DOWN.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png" RIIS-CodeMash/bigButton_UP.png
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png" RIIS-CodeMash/Default.png
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
-cCpResource FoneMonkey-1/bin/iphonesim "build/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim"
-cCpResource FoneMonkey-1/COPYRIGHT "build/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHT"
-cCpResource FoneMonkey-1/docs/index.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/index.html"
-cCpResource FoneMonkey-1/extralibs.zip "build/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zip"
-cCopyPlistFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkeyRunner.plist" FoneMonkey-1/FoneMonkeyRunner.plist
-cCpResource FoneMonkey-1/ReleaseNotes.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.html"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png" FoneMonkey-1/resources/FMClear.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png" FoneMonkey-1/resources/FMCommand.png
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png" FoneMonkey-1/resources/FMDataDrive.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png" FoneMonkey-1/resources/FMDelete.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png" FoneMonkey-1/resources/FMEdit.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png" FoneMonkey-1/resources/FMGetVariable.png
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png" FoneMonkey-1/resources/FMInputText.png
-cCpResource FoneMonkey-1/resources/FMObjConnect.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.html"
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib
-cCpResource FoneMonkey-1/resources/FMObjConnect.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib"
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png" FoneMonkey-1/resources/FMPauseMovie.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png" FoneMonkey-1/resources/FMPlayMovie.png
-cCpResource FoneMonkey-1/resources/FMQunitAPI.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslib"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png" FoneMonkey-1/resources/FMReturn.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png" FoneMonkey-1/resources/FMRotate.png
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib
-cCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png" FoneMonkey-1/resources/FMTouch.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png" FoneMonkey-1/resources/FMWebDriver.png
-cCpResource FoneMonkey-1/resources/FoneMonkey.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jslib"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png" FoneMonkey-1/resources/gorilla-32.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png" FoneMonkey-1/resources/gorillalogic.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png" FoneMonkey-1/resources/icon_arrow_down.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png" FoneMonkey-1/resources/icon_arrow_up.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png" FoneMonkey-1/resources/icon_controls_3.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png" FoneMonkey-1/resources/icon_controls_4.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png" FoneMonkey-1/resources/icon_filming.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png" FoneMonkey-1/resources/icon_script.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png" FoneMonkey-1/resources/icon_timer.png
-cCpResource FoneMonkey-1/resources/jquery-latest.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslib"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png" FoneMonkey-1/resources/Move.png
-cCpResource FoneMonkey-1/resources/objc.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/objc.template"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png" FoneMonkey-1/resources/optionsBg.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png" FoneMonkey-1/resources/optionsIcon.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png" FoneMonkey-1/resources/Pause.png
-cCpResource FoneMonkey-1/resources/qunit.css "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.css"
-cCpResource FoneMonkey-1/resources/qunit.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib"
-cCpResource FoneMonkey-1/resources/qunit.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.template"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png" FoneMonkey-1/resources/Scroll.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png" FoneMonkey-1/resources/ScrollDown.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png" FoneMonkey-1/resources/ScrollLeft.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png" FoneMonkey-1/resources/ScrollRight.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png" FoneMonkey-1/resources/ScrollUp.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png" FoneMonkey-1/resources/Select.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png" FoneMonkey-1/resources/shadow.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png" FoneMonkey-1/resources/shadowUp.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png" FoneMonkey-1/resources/Shake.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png" FoneMonkey-1/resources/Slide.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png" FoneMonkey-1/resources/Switch.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png" FoneMonkey-1/resources/Tab.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png" FoneMonkey-1/resources/TouchLeft.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png" FoneMonkey-1/resources/TouchRight.png
-cCpResource FoneMonkey-1/resources/uiautomation.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.template"
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png" FoneMonkey-1/resources/Verify.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png" FoneMonkey-1/resources/VScroll.png
-cCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png" FoneMonkey-1/resources/WaitFor.png
-cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"
-cProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"
-cTouch "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent"
-cCodeSign "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"
-
-N/Developer/Library/Frameworks/SenTestingKit.framework/SenTestingKit
-c000000004F0C84FB000000000002CB10
-t1326220539
-s183056
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
-c000000004E7840290000000000000110
-t1316503593
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-c000000004E5C595800000000000001A7
-t1314675032
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-c000000004E5C595800000000000001E5
-t1314675032
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F28700000000003AB0A0
-t1316156039
-s3846304
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F3440000000000529540
-t1316156228
-s5412160
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004E72F8910000000000173260
-t1316157585
-s1520224
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7808C7000000000078BE50
-t1316489415
-s7913040
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libxml2.dylib
-c000000004E72F24100000000001F2D30
-t1316155969
-s2043184
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/COPYRIGHT
-c000000004EDCD59C0000000000000379
-t1323095452
-s889
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/FoneMonkeyRunner.plist
-c000000004EDCD59C000000000000015F
-t1323095452
-s351
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/ReleaseNotes.html
-c000000004EDCD59C0000000000000063
-t1323095452
-s99
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/bin/iphonesim
-c000000004EDCD59C000000000000DEF0
-t1323095452
-s57072
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/docs/index.html
-c000000004EDCD59C0000000000000065
-t1323095452
-s101
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/extralibs.zip
-c000000004EDCD5B600000000001A033C
-t1323095478
-s1704764
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/lib/libFoneMonkey.5.5b.a
-c000000004EDCD5B4000000000060528C
-t1323095476
-s6312588
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/lib/libFoneMonkeyOCUnit.5.5b.a
-c000000004EDCD5B4000000000005547C
-t1323095476
-s349308
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMClear.png
-c000000004EDCD59C0000000000000455
-t1323095452
-s1109
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommand.png
-c000000004EDCD59C000000000000084D
-t1323095452
-s2125
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib
-c000000004EDCD59C00000000000037A9
-t1323095452
-s14249
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib
-c000000004EDCD59C0000000000003A34
-t1323095452
-s14900
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib
-c000000004EDCD59C00000000000670E0
-t1323095452
-s422112
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib
-c000000004EDCD59C0000000000066EF4
-t1323095452
-s421620
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDataDrive.png
-c000000004EDCD59C0000000000000E4B
-t1323095452
-s3659
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDelete.png
-c000000004EDCD59C0000000000000482
-t1323095452
-s1154
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMEdit.png
-c000000004EDCD59C0000000000000656
-t1323095452
-s1622
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGetVariable.png
-c000000004EDCD59C000000000000104C
-t1323095452
-s4172
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib
-c000000004EDCD59C0000000000002353
-t1323095452
-s9043
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib
-c000000004EDCD59C00000000000024F8
-t1323095452
-s9464
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib
-c000000004EDCD59C0000000000001DE8
-t1323095452
-s7656
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib
-c000000004EDCD59C0000000000001C94
-t1323095452
-s7316
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMInputText.png
-c000000004EDCD59C00000000000004AD
-t1323095452
-s1197
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMObjConnect.html
-c000000004EDCD59C000000000000077F
-t1323095452
-s1919
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMObjConnect.jslib
-c000000004EDCD59C0000000000000669
-t1323095452
-s1641
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib
-c000000004EDCD59C00000000000048F2
-t1323095452
-s18674
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib
-c000000004EDCD59C0000000000004604
-t1323095452
-s17924
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPauseMovie.png
-c000000004EDCD59C0000000000000BB6
-t1323095452
-s2998
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPlayMovie.png
-c000000004EDCD59C0000000000000DC3
-t1323095452
-s3523
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMQunitAPI.jslib
-c000000004EDCD59C0000000000000D00
-t1323095452
-s3328
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMReturn.png
-c000000004EDCD59C00000000000004EB
-t1323095452
-s1259
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMRotate.png
-c000000004EDCD59C0000000000000A4C
-t1323095452
-s2636
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib
-c000000004EDCD59C0000000000003E42
-t1323095452
-s15938
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib
-c000000004EDCD59C0000000000004044
-t1323095452
-s16452
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMTouch.png
-c000000004EDCD59C00000000000010AD
-t1323095452
-s4269
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMWebDriver.png
-c000000004EDCD59C0000000000001128
-t1323095452
-s4392
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FoneMonkey.jslib
-c000000004EDCD59C0000000000002523
-t1323095452
-s9507
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Move.png
-c000000004EDCD59C0000000000001029
-t1323095452
-s4137
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Pause.png
-c000000004EDCD59C0000000000000577
-t1323095452
-s1399
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Scroll.png
-c000000004EDCD59C0000000000000696
-t1323095452
-s1686
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollDown.png
-c000000004EDCD59C0000000000001174
-t1323095452
-s4468
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollLeft.png
-c000000004EDCD59C0000000000001195
-t1323095452
-s4501
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollRight.png
-c000000004EDCD59C00000000000011A0
-t1323095452
-s4512
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollUp.png
-c000000004EDCD59C0000000000001165
-t1323095452
-s4453
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Select.png
-c000000004EDCD59C0000000000000596
-t1323095452
-s1430
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Shake.png
-c000000004EDCD59C00000000000004F2
-t1323095452
-s1266
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Slide.png
-c000000004EDCD59C0000000000000520
-t1323095452
-s1312
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Switch.png
-c000000004EDCD59C000000000000045B
-t1323095452
-s1115
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Tab.png
-c000000004EDCD59C0000000000000596
-t1323095452
-s1430
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchLeft.png
-c000000004EDCD59C00000000000004DC
-t1323095452
-s1244
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchRight.png
-c000000004EDCD59C0000000000000506
-t1323095452
-s1286
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/VScroll.png
-c000000004EDCD59C00000000000011E8
-t1323095452
-s4584
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Verify.png
-c000000004EDCD59C0000000000000ABD
-t1323095452
-s2749
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/WaitFor.png
-c000000004EDCD59C000000000000070E
-t1323095452
-s1806
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorilla-32.png
-c000000004EDCD59C0000000000000E9A
-t1323095452
-s3738
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorillalogic.png
-c000000004EDCD59C00000000000099D7
-t1323095452
-s39383
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_down.png
-c000000004EDCD59C00000000000001CC
-t1323095452
-s460
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_up.png
-c000000004EDCD59C0000000000000187
-t1323095452
-s391
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_3.png
-c000000004EDCD59C00000000000001BA
-t1323095452
-s442
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_4.png
-c000000004EDCD59C00000000000000CC
-t1323095452
-s204
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_filming.png
-c000000004EDCD59C0000000000000231
-t1323095452
-s561
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_script.png
-c000000004EDCD59C0000000000000D83
-t1323095452
-s3459
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_timer.png
-c000000004EDCD59C00000000000002F5
-t1323095452
-s757
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/jquery-latest.jslib
-c000000004EDCD59C0000000000039AAA
-t1323095452
-s236202
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/objc.template
-c000000004EDCD59C0000000000000319
-t1323095452
-s793
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsBg.png
-c000000004EDCD59C0000000000006A5B
-t1323095452
-s27227
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsIcon.png
-c000000004EDCD59C0000000000000CEF
-t1323095452
-s3311
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.css
-c000000004EDCD59C0000000000001063
-t1323095452
-s4195
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.jslib
-c000000004EDCD59C00000000000095C2
-t1323095452
-s38338
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.template
-c000000004EDCD59C000000000000031E
-t1323095452
-s798
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadow.png
-c000000004EDCD59C0000000000000B0B
-t1323095452
-s2827
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadowUp.png
-c000000004EDCD59C0000000000000B06
-t1323095452
-s2822
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/uiautomation.template
-c000000004EDCD59C00000000000000CF
-t1323095452
-s207
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m
-c000000004F0C5D7C00000000000003AF
-t1326210428
-s943
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png
-c000000004F0C5D7C0000000000008167
-t1326210428
-s33127
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m
-c000000004F0C5D7C0000000000000415
-t1326210428
-s1045
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m
-c000000004F0C5D7C00000000000000D6
-t1326210428
-s214
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch
-c000000004F0C5D7C0000000000000149
-t1326210428
-s329
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m
-c000000004F0C5D7C000000000000015D
-t1326210428
-s349
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png
-c000000004F0C5D7C000000000001696C
-t1326210428
-s92524
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png
-c000000004F0C5D7C0000000000012719
-t1326210428
-s75545
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/InfoPlist.strings
-c000000004F0C5D7C000000000000002D
-t1326210428
-s45
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
-c000000004F0C5D7C0000000000002EC3
-t1326210428
-s11971
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
-c000000004F0C5D7C0000000000001D8D
-t1326210428
-s7565
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m
-c000000004F0C5D7C000000000000015B
-t1326210428
-s347
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHT
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommandEditViewController_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommandEditViewController_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMConsoleController_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMConsoleController_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorillaView_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorillaView_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorilla_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorilla_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.html
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMOpenScriptDialog_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMOpenScriptDialog_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMSaveScriptDialog_iPad.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMSaveScriptDialog_iPhone.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jslib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkeyRunner.plist
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/PkgInfo
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.html
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/MainViewController.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/SettingsViewController.nib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zip
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/index.html
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/objc.template
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.css
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.template
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.template
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/RIIS-CodeMash copy.LinkFileList
-c000000004F0C8C0C00000000000002F3
-t1326222348
-s755
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent
-t2
-s0
-
-N/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision
-c000000004F0C600A0000000000002139
-t1326211082
-s8505
-
-N/var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth
-t2
-s0
-
-NRIIS-CodeMash copy-Info.plist
-c000000004F0C5D7C00000000000004BE
-t1326210428
-s1214
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaa437a8bc3bcb441^30d5348cc3bcb441^---0#1#0#--18"Check dependencies36"16E1316B-004E-479C-A960-FA299BCD16A0-
-
-CCodeSign "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"
-s347915150.493972
-e347915150.651559
-r1
-xCodeSign
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign "build/Debug-iphoneos/RIIS-CodeMash copy.app"7f877e8ec3bcb441^0ccca68ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/0000000000000000^851"CodeSign "build/Debug-iphoneos/RIIS-CodeMash copy.app"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign "iPhone Developer: Godfrey Nolan (QHT2QV9CU7)" "--resource-rules=/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist" --entitlements "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"470CE54F-0223-4382-97C5-4537894C5F95-
-
-CCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.419749
-e347915148.477142
-r1
-xCompileC
-xbuild/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.mbc936b8cc3bcb441^d5267a8cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m0000000000000000^2940"CompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o RIIS-CodeMash/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/AppDelegate.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/AppDelegate.o36"4A0F33CB-EDD5-4A87-9FEC-FDA6024B6EF2-
-
-CCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.419754
-e347915148.470375
-r1
-xCompileC
-xbuild/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m75946b8cc3bcb441^c26a788cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m0000000000000000^2975"CompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o RIIS-CodeMash/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/MainViewController.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/MainViewController.o36"C50E2FD1-7AEA-4470-A2C9-1616D9FBA8AE-
-
-CCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.419774
-e347915148.445990
-r1
-xCompileC
-xbuild/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.md49d6b8cc3bcb441^8b33728cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m0000000000000000^2910"CompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o RIIS-CodeMash/Model.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Model.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/Model.o36"71065D71-DE51-42A4-AA78-5BEC036FC198-
-
-CCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.419796
-e347915148.464602
-r1
-xCompileC
-xbuild/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m069e6b8cc3bcb441^8df0768cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m0000000000000000^2995"CompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o RIIS-CodeMash/SettingsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/SettingsViewController.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/SettingsViewController.o36"5510FE63-7CC3-43F7-BACA-B3A23E6A6D1D-
-
-CCompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.419752
-e347915148.445974
-r1
-xCompileC
-xbuild/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.mff936b8cc3bcb441^492b728cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m0000000000000000^2905"CompileC build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o RIIS-CodeMash/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -include /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch -MMD -MT dependencies -MF /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.d -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/main.m -o /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/main.o36"03DAD87C-DB3E-4696-BB18-271A804E0B8E-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib
-s347915148.642077
-e347915149.609725
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib6c7aa48cc3bcb441^444d9c8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib0000000000000000^825"CompileXIB FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommandEditViewController_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"52DB5A43-65AC-43AB-A670-AA6DAB54EC49-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib
-s347915148.698438
-e347915149.606105
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib86e6b28cc3bcb441^fa9c9b8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib0000000000000000^831"CompileXIB FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommandEditViewController_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommandEditViewController_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"60673550-9B20-4EF7-9CCF-DD8DF3DCBEB6-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib
-s347915148.698443
-e347915149.929910
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib:99: warning: Textured background pattern color in iOSf versions prior to 3.2 [9]
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xibcde5b28cc3bcb441^2e3dee8dc3bcb441^-222"/* com.apple.ibtool.document.warnings *//Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib:99: warning: Textured background pattern color in iOSf versions prior to 3.2 [9]1(21%IDEActivityLogMessage2@63"Textured background pattern color in iOSf versions prior to 3.2-347915149#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@115"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib0000000000000000^98#18446744073709551615#98#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@115"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib0000000000000000^801"CompileXIB FoneMonkey-1/resources/FMConsoleController_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMConsoleController_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"D1D08C91-9479-4312-8D02-E447BA1B1F61-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib
-s347915148.831591
-e347915150.120180
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib:203: warning: Textured background pattern color in iOSf versions prior to 3.2 [9]
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xiba4fcd48cc3bcb441^7cd51e8ec3bcb441^-225"/* com.apple.ibtool.document.warnings *//Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib:203: warning: Textured background pattern color in iOSf versions prior to 3.2 [9]1(21%IDEActivityLogMessage2@63"Textured background pattern color in iOSf versions prior to 3.2-347915150#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@117"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib0000000000000000^202#18446744073709551615#202#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib0000000000000000^807"CompileXIB FoneMonkey-1/resources/FMConsoleController_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMConsoleController_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMConsoleController_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"9FAEE2AC-593F-49DA-98C9-A56941F4BA8A-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib
-s347915149.610624
-e347915149.715356
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xibf9699c8dc3bcb441^122eb88dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib0000000000000000^783"CompileXIB FoneMonkey-1/resources/FMGorillaView_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorillaView_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"C403E637-D7D8-47F9-9793-6BEFD9D108B3-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib
-s347915149.613234
-e347915149.699404
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib27159d8dc3bcb441^1118b38dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib0000000000000000^789"CompileXIB FoneMonkey-1/resources/FMGorillaView_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorillaView_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorillaView_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"AF6D9427-9B53-4A6D-881D-D1EABF0257FE-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib
-s347915149.193915
-e347915150.302553
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xibfdbc318dc3bcb441^17814d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib0000000000000000^771"CompileXIB FoneMonkey-1/resources/FMGorilla_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorilla_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"118D4EC9-0DD7-4555-A94C-180D7EDCBCFE-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib
-s347915149.193916
-e347915150.315253
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib30bd318dc3bcb441^13b5508ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib0000000000000000^777"CompileXIB FoneMonkey-1/resources/FMGorilla_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGorilla_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGorilla_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"1E82B5D1-03F2-48B5-A051-B8175C3EDD5E-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib
-s347915149.708845
-e347915150.176301
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib758eb58dc3bcb441^512e2d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib0000000000000000^798"CompileXIB FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMOpenScriptDialog_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"75047DB8-9BE8-460D-8788-29C6B3F9FC55-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib
-s347915149.720626
-e347915149.792052
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xibf8a6b98dc3bcb441^9fcdca8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib0000000000000000^804"CompileXIB FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMOpenScriptDialog_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMOpenScriptDialog_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"A30F2DCA-BBF7-4D13-9895-E8D6A95FCED4-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib
-s347915149.824610
-e347915150.250570
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib5a2ed38dc3bcb441^f225408ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib0000000000000000^798"CompileXIB FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMSaveScriptDialog_iPad.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"6A434667-A01B-47EC-B2B9-F6DDD05BB662-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib
-s347915149.867988
-e347915149.948381
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xibbc3edf8dc3bcb441^56f4f38dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib0000000000000000^804"CompileXIB FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMSaveScriptDialog_iPhone.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMSaveScriptDialog_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"D353C5AA-2C2A-467D-BB27-F0A0378595E1-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
-s347915148.625408
-e347915149.615375
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xibbb2aa08cc3bcb441^32929d8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib0000000000000000^792"CompileXIB RIIS-CodeMash/en.lproj/MainViewController.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/MainViewController.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/MainViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"D04EDA84-BB2C-405F-BB88-D886F8E69A7F-
-
-CCompileXIB /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
-s347915148.625474
-e347915149.649330
-r1
-xCompileXIB
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compiling /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib4831a08cc3bcb441^86e7a98dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib0000000000000000^804"CompileXIB RIIS-CodeMash/en.lproj/SettingsViewController.xib    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/SettingsViewController.nib" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/SettingsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"9DEC9E96-54B2-4DD1-9653-EB7F6E4DA7D2-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png" RIIS-CodeMash/Default.png
-s347915148.625411
-e347915149.100720
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png
-xRIIS-CodeMash/Default.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png" RIIS-CodeMash/Default.pnge129a08cc3bcb441^45d7198dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png0000000000000000^665"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png" RIIS-CodeMash/Default.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/Default.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Default.png"36"532D3339-792D-48CB-9844-9CDF480C9B8A-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png" FoneMonkey-1/resources/FMClear.png
-s347915148.640529
-e347915148.697159
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png
-xFoneMonkey-1/resources/FMClear.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png" FoneMonkey-1/resources/FMClear.pnge319a48cc3bcb441^be84b28cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMClear.png0000000000000000^683"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png" FoneMonkey-1/resources/FMClear.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMClear.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMClear.png"36"57D7551A-2148-4D7B-8AEB-49E2F53C1632-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png" FoneMonkey-1/resources/FMCommand.png
-s347915148.640540
-e347915148.697284
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png
-xFoneMonkey-1/resources/FMCommand.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png" FoneMonkey-1/resources/FMCommand.png5a12a48cc3bcb441^488cb28cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommand.png0000000000000000^691"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png" FoneMonkey-1/resources/FMCommand.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMCommand.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMCommand.png"36"F919D8DF-EE1C-4502-8518-AD2984440D23-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png" FoneMonkey-1/resources/FMDataDrive.png
-s347915149.102469
-e347915149.136857
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png
-xFoneMonkey-1/resources/FMDataDrive.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png" FoneMonkey-1/resources/FMDataDrive.pngc5541a8dc3bcb441^e431238dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDataDrive.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png" FoneMonkey-1/resources/FMDataDrive.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDataDrive.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDataDrive.png"36"4C2D7104-164F-4A00-BE24-B71ABA5B3F47-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png" FoneMonkey-1/resources/FMDelete.png
-s347915149.102476
-e347915149.137792
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png
-xFoneMonkey-1/resources/FMDelete.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png" FoneMonkey-1/resources/FMDelete.png43571a8dc3bcb441^1b48238dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDelete.png0000000000000000^687"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png" FoneMonkey-1/resources/FMDelete.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMDelete.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMDelete.png"36"5DEB741E-F845-4449-9AE1-2EDA8F58E253-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png" FoneMonkey-1/resources/FMEdit.png
-s347915149.138039
-e347915149.177396
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png
-xFoneMonkey-1/resources/FMEdit.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png" FoneMonkey-1/resources/FMEdit.png9b70238dc3bcb441^187d318dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMEdit.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png" FoneMonkey-1/resources/FMEdit.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMEdit.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMEdit.png"36"65B861DB-4F3A-4745-9742-7887F06D7F8C-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png" FoneMonkey-1/resources/FMGetVariable.png
-s347915149.138543
-e347915149.187752
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png
-xFoneMonkey-1/resources/FMGetVariable.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png" FoneMonkey-1/resources/FMGetVariable.pngf88d238dc3bcb441^7f84318dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGetVariable.png0000000000000000^707"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png" FoneMonkey-1/resources/FMGetVariable.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMGetVariable.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMGetVariable.png"36"A10A2F68-DA31-43C5-A3AE-90F59F77CAE9-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png" FoneMonkey-1/resources/FMInputText.png
-s347915149.623251
-e347915149.765125
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png
-xFoneMonkey-1/resources/FMInputText.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png" FoneMonkey-1/resources/FMInputText.png93a89f8dc3bcb441^36e8c38dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMInputText.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png" FoneMonkey-1/resources/FMInputText.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMInputText.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMInputText.png"36"D3802947-1354-4AC0-BD50-457749BBA08C-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png" FoneMonkey-1/resources/FMPauseMovie.png
-s347915149.756802
-e347915149.822296
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png
-xFoneMonkey-1/resources/FMPauseMovie.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png" FoneMonkey-1/resources/FMPauseMovie.png77d7c18dc3bcb441^7689d28dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPauseMovie.png0000000000000000^703"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png" FoneMonkey-1/resources/FMPauseMovie.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPauseMovie.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPauseMovie.png"36"8EF27651-1498-4FE0-A10E-5C777128D6F9-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png" FoneMonkey-1/resources/FMPlayMovie.png
-s347915149.767017
-e347915149.822986
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png
-xFoneMonkey-1/resources/FMPlayMovie.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png" FoneMonkey-1/resources/FMPlayMovie.pnge195c48dc3bcb441^9ab3d28dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPlayMovie.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png" FoneMonkey-1/resources/FMPlayMovie.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMPlayMovie.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMPlayMovie.png"36"C8254A96-CF7E-49A0-AA2D-7ACC311A9849-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png" FoneMonkey-1/resources/FMReturn.png
-s347915149.810306
-e347915149.865801
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png
-xFoneMonkey-1/resources/FMReturn.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png" FoneMonkey-1/resources/FMReturn.png840fd18dc3bcb441^dba5dd8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMReturn.png0000000000000000^687"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png" FoneMonkey-1/resources/FMReturn.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMReturn.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMReturn.png"36"8BA4C530-4B50-4338-9F8A-A465FD8DCF28-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png" FoneMonkey-1/resources/FMRotate.png
-s347915149.824541
-e347915149.879819
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png
-xFoneMonkey-1/resources/FMRotate.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png" FoneMonkey-1/resources/FMRotate.png382ed38dc3bcb441^5e4ae18dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMRotate.png0000000000000000^687"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png" FoneMonkey-1/resources/FMRotate.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMRotate.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMRotate.png"36"19E3FADE-D05D-4721-B3F4-BD992401C6D9-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png" FoneMonkey-1/resources/FMTouch.png
-s347915149.883134
-e347915149.942798
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png
-xFoneMonkey-1/resources/FMTouch.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png" FoneMonkey-1/resources/FMTouch.png162fe28dc3bcb441^6d71f18dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMTouch.png0000000000000000^683"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png" FoneMonkey-1/resources/FMTouch.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMTouch.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMTouch.png"36"B5475505-CE84-48FD-B1DB-7DCFBFF9962E-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png" FoneMonkey-1/resources/FMWebDriver.png
-s347915149.932518
-e347915150.005560
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png
-xFoneMonkey-1/resources/FMWebDriver.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png" FoneMonkey-1/resources/FMWebDriver.png52d3ee8dc3bcb441^9084018ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMWebDriver.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png" FoneMonkey-1/resources/FMWebDriver.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMWebDriver.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FMWebDriver.png"36"56D3BD92-02E6-461A-B212-F8CFEF7A37A8-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png" FoneMonkey-1/resources/Move.png
-s347915150.218818
-e347915150.261276
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png
-xFoneMonkey-1/resources/Move.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png" FoneMonkey-1/resources/Move.pnge927388ec3bcb441^6de4428ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Move.png0000000000000000^671"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png" FoneMonkey-1/resources/Move.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Move.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Move.png"36"34BB8353-73EA-4FD6-8753-ED6E80E943FF-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png" FoneMonkey-1/resources/Pause.png
-s347915150.243596
-e347915150.284055
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png
-xFoneMonkey-1/resources/Pause.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png" FoneMonkey-1/resources/Pause.pngc9763e8ec3bcb441^09c3488ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Pause.png0000000000000000^675"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png" FoneMonkey-1/resources/Pause.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Pause.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Pause.png"36"61004D35-288F-4E7D-ACF9-D93D830FC7A4-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png" FoneMonkey-1/resources/Scroll.png
-s347915150.252037
-e347915150.315055
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png
-xFoneMonkey-1/resources/Scroll.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png" FoneMonkey-1/resources/Scroll.png7c9d408ec3bcb441^ebaa508ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Scroll.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png" FoneMonkey-1/resources/Scroll.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Scroll.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Scroll.png"36"F0A712EC-8EB8-4D01-9E0D-9B681BEA8FFE-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png" FoneMonkey-1/resources/ScrollDown.png
-s347915150.259959
-e347915150.302736
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png
-xFoneMonkey-1/resources/ScrollDown.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png" FoneMonkey-1/resources/ScrollDown.pngc9ac428ec3bcb441^94874d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollDown.png0000000000000000^695"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png" FoneMonkey-1/resources/ScrollDown.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollDown.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollDown.png"36"6E801724-094E-4998-99CB-457AB7A8CC83-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png" FoneMonkey-1/resources/ScrollLeft.png
-s347915150.262600
-e347915150.324671
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png
-xFoneMonkey-1/resources/ScrollLeft.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png" FoneMonkey-1/resources/ScrollLeft.png4c54438ec3bcb441^eb37538ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollLeft.png0000000000000000^695"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png" FoneMonkey-1/resources/ScrollLeft.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollLeft.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollLeft.png"36"280744CF-92B5-48E0-A65D-94579BA444B1-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png" FoneMonkey-1/resources/ScrollRight.png
-s347915150.271876
-e347915150.350055
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png
-xFoneMonkey-1/resources/ScrollRight.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png" FoneMonkey-1/resources/ScrollRight.pngbfbb458ec3bcb441^6ea7598ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollRight.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png" FoneMonkey-1/resources/ScrollRight.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollRight.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollRight.png"36"764B04E9-39DB-4C59-A75B-E7ADB13DB3CA-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png" FoneMonkey-1/resources/ScrollUp.png
-s347915150.287197
-e347915150.372089
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png
-xFoneMonkey-1/resources/ScrollUp.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png" FoneMonkey-1/resources/ScrollUp.png9da0498ec3bcb441^fa435f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollUp.png0000000000000000^687"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png" FoneMonkey-1/resources/ScrollUp.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/ScrollUp.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ScrollUp.png"36"B14EA858-2CEF-46E3-960E-A166DA3650DC-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png" FoneMonkey-1/resources/Select.png
-s347915150.306288
-e347915150.387949
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png
-xFoneMonkey-1/resources/Select.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png" FoneMonkey-1/resources/Select.png24814e8ec3bcb441^3f53638ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Select.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png" FoneMonkey-1/resources/Select.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Select.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Select.png"36"D728FB5D-192B-4BF3-9F75-EC9DEB7321D7-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png" FoneMonkey-1/resources/Shake.png
-s347915150.322025
-e347915150.391824
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png
-xFoneMonkey-1/resources/Shake.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png" FoneMonkey-1/resources/Shake.pngc287528ec3bcb441^7559648ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Shake.png0000000000000000^675"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png" FoneMonkey-1/resources/Shake.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Shake.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Shake.png"36"DB3366EB-4D76-4B04-B52E-97BE9FD0BC2C-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png" FoneMonkey-1/resources/Slide.png
-s347915150.329454
-e347915150.395566
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png
-xFoneMonkey-1/resources/Slide.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png" FoneMonkey-1/resources/Slide.pngf46e548ec3bcb441^6345658ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Slide.png0000000000000000^675"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png" FoneMonkey-1/resources/Slide.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Slide.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Slide.png"36"BC930AD0-522C-402C-BA84-06898B730462-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png" FoneMonkey-1/resources/Switch.png
-s347915150.355033
-e347915150.411312
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png
-xFoneMonkey-1/resources/Switch.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png" FoneMonkey-1/resources/Switch.png2ffa5a8ec3bcb441^fcc4698ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Switch.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png" FoneMonkey-1/resources/Switch.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Switch.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Switch.png"36"87E8995F-481F-4BF5-93C8-6D3B1529BD39-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png" FoneMonkey-1/resources/Tab.png
-s347915150.358059
-e347915150.435575
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png
-xFoneMonkey-1/resources/Tab.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png" FoneMonkey-1/resources/Tab.png48c55b8ec3bcb441^2e8d6f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Tab.png0000000000000000^667"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png" FoneMonkey-1/resources/Tab.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Tab.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Tab.png"36"1874E0F1-89A9-49EB-9181-573C8A4E1F0B-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png" FoneMonkey-1/resources/TouchLeft.png
-s347915150.377437
-e347915150.435550
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png
-xFoneMonkey-1/resources/TouchLeft.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png" FoneMonkey-1/resources/TouchLeft.png99b9608ec3bcb441^a4896f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchLeft.png0000000000000000^691"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png" FoneMonkey-1/resources/TouchLeft.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchLeft.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchLeft.png"36"497BFA57-54C5-4FBA-B4C7-59D961B5DCEA-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png" FoneMonkey-1/resources/TouchRight.png
-s347915150.377909
-e347915150.435559
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png
-xFoneMonkey-1/resources/TouchRight.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png" FoneMonkey-1/resources/TouchRight.png80d6608ec3bcb441^067f6f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchRight.png0000000000000000^695"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png" FoneMonkey-1/resources/TouchRight.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/TouchRight.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/TouchRight.png"36"B7039683-F01D-4E3F-A626-89BFB585420A-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png" FoneMonkey-1/resources/VScroll.png
-s347915150.394835
-e347915150.438628
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png
-xFoneMonkey-1/resources/VScroll.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png" FoneMonkey-1/resources/VScroll.pngba2d658ec3bcb441^304a708ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/VScroll.png0000000000000000^683"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png" FoneMonkey-1/resources/VScroll.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/VScroll.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/VScroll.png"36"C8E3E870-C03A-404B-8D7A-A0FB0318D40C-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png" FoneMonkey-1/resources/Verify.png
-s347915150.389117
-e347915150.435540
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png
-xFoneMonkey-1/resources/Verify.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png" FoneMonkey-1/resources/Verify.pngddb2638ec3bcb441^94856f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Verify.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png" FoneMonkey-1/resources/Verify.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/Verify.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Verify.png"36"A70219AD-E5E5-4CD8-A1F9-880915B03B60-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png" FoneMonkey-1/resources/WaitFor.png
-s347915150.395522
-e347915150.438224
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png
-xFoneMonkey-1/resources/WaitFor.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png" FoneMonkey-1/resources/WaitFor.pngac57658ec3bcb441^732f708ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/WaitFor.png0000000000000000^683"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png" FoneMonkey-1/resources/WaitFor.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/WaitFor.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/WaitFor.png"36"2D5D6DEF-7446-4F32-9E13-AD0BECBE9C3F-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png" RIIS-CodeMash/bigButton_DOWN.png
-s347915148.623745
-e347915148.830408
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png
-xRIIS-CodeMash/bigButton_DOWN.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png" RIIS-CodeMash/bigButton_DOWN.pnge8bf9f8cc3bcb441^fa97d48cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png0000000000000000^693"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png" RIIS-CodeMash/bigButton_DOWN.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_DOWN.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_DOWN.png"36"5EE82EBA-A1BE-44C6-9C4C-DF6E780453E2-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png" RIIS-CodeMash/bigButton_UP.png
-s347915148.624170
-e347915149.100748
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png
-xRIIS-CodeMash/bigButton_UP.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png" RIIS-CodeMash/bigButton_UP.png1fd69f8cc3bcb441^65c8198dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png0000000000000000^685"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png" RIIS-CodeMash/bigButton_UP.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/bigButton_UP.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/bigButton_UP.png"36"D133970B-848D-4F5A-9EB2-C3AE6B7EE355-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png" FoneMonkey-1/resources/gorilla-32.png
-s347915149.954009
-e347915150.021450
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png
-xFoneMonkey-1/resources/gorilla-32.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png" FoneMonkey-1/resources/gorilla-32.pnga452f48dc3bcb441^3737068ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorilla-32.png0000000000000000^695"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png" FoneMonkey-1/resources/gorilla-32.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorilla-32.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorilla-32.png"36"8881013C-E76C-43CC-A9FC-A6759F2B2A2B-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png" FoneMonkey-1/resources/gorillalogic.png
-s347915149.964414
-e347915150.181080
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png
-xFoneMonkey-1/resources/gorillalogic.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png" FoneMonkey-1/resources/gorillalogic.png9cfcf68dc3bcb441^506f2e8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorillalogic.png0000000000000000^703"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png" FoneMonkey-1/resources/gorillalogic.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/gorillalogic.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/gorillalogic.png"36"003CE8B8-DAC1-4D7C-8FC4-3BE7B2616184-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png" FoneMonkey-1/resources/icon_arrow_down.png
-s347915150.011970
-e347915150.115060
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png
-xFoneMonkey-1/resources/icon_arrow_down.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png" FoneMonkey-1/resources/icon_arrow_down.png3d29038ec3bcb441^3f741d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_down.png0000000000000000^715"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png" FoneMonkey-1/resources/icon_arrow_down.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_down.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_down.png"36"322EBE62-659C-4F8C-BD88-22E8DB2B6396-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png" FoneMonkey-1/resources/icon_arrow_up.png
-s347915150.036285
-e347915150.115765
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png
-xFoneMonkey-1/resources/icon_arrow_up.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png" FoneMonkey-1/resources/icon_arrow_up.pngb169098ec3bcb441^a4a61d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_up.png0000000000000000^707"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png" FoneMonkey-1/resources/icon_arrow_up.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_arrow_up.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_arrow_up.png"36"39B9A4C6-6F3E-482A-BFBB-1BED399B842D-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png" FoneMonkey-1/resources/icon_controls_3.png
-s347915150.129082
-e347915150.178275
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png
-xFoneMonkey-1/resources/icon_controls_3.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png" FoneMonkey-1/resources/icon_controls_3.pngd523218ec3bcb441^c9ad2d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_3.png0000000000000000^715"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png" FoneMonkey-1/resources/icon_controls_3.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_3.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_3.png"36"AB0239DC-984A-4249-85DF-EE0CE3BE0ADA-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png" FoneMonkey-1/resources/icon_controls_4.png
-s347915150.129136
-e347915150.228835
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png
-xFoneMonkey-1/resources/icon_controls_4.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png" FoneMonkey-1/resources/icon_controls_4.pngab25218ec3bcb441^1fd73a8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_4.png0000000000000000^715"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png" FoneMonkey-1/resources/icon_controls_4.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_controls_4.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_controls_4.png"36"EF4252D1-B4AE-4E56-9DCB-F480F87164BD-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png" FoneMonkey-1/resources/icon_filming.png
-s347915150.130308
-e347915150.238342
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png
-xFoneMonkey-1/resources/icon_filming.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png" FoneMonkey-1/resources/icon_filming.png2b32228ec3bcb441^ae0d3d8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_filming.png0000000000000000^703"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png" FoneMonkey-1/resources/icon_filming.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_filming.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_filming.png"36"0F13AF38-3215-45A8-9FEF-78B384705DD7-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png" FoneMonkey-1/resources/icon_script.png
-s347915150.181314
-e347915150.243373
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png
-xFoneMonkey-1/resources/icon_script.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png" FoneMonkey-1/resources/icon_script.png84822e8ec3bcb441^a14d3e8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_script.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png" FoneMonkey-1/resources/icon_script.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_script.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_script.png"36"41FD944B-A90C-4D08-B82B-A92D0C95331E-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png" FoneMonkey-1/resources/icon_timer.png
-s347915150.181786
-e347915150.242432
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png
-xFoneMonkey-1/resources/icon_timer.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png" FoneMonkey-1/resources/icon_timer.pnga69d2e8ec3bcb441^c30f3e8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_timer.png0000000000000000^695"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png" FoneMonkey-1/resources/icon_timer.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/icon_timer.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/icon_timer.png"36"B874D9B2-889B-46AA-87F6-05AC91EC8DD5-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png" FoneMonkey-1/resources/optionsBg.png
-s347915150.238350
-e347915150.354925
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png
-xFoneMonkey-1/resources/optionsBg.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png" FoneMonkey-1/resources/optionsBg.pnge31c3d8ec3bcb441^cade5a8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsBg.png0000000000000000^691"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png" FoneMonkey-1/resources/optionsBg.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsBg.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsBg.png"36"B9E4FBBC-0315-4688-99D8-3C7A2D863A6D-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png" FoneMonkey-1/resources/optionsIcon.png
-s347915150.239718
-e347915150.270058
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png
-xFoneMonkey-1/resources/optionsIcon.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png" FoneMonkey-1/resources/optionsIcon.pngfb773d8ec3bcb441^ec31458ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsIcon.png0000000000000000^699"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png" FoneMonkey-1/resources/optionsIcon.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/optionsIcon.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/optionsIcon.png"36"1DA5C3AF-E3F1-4DF2-B8D7-CEE61547436B-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png" FoneMonkey-1/resources/shadow.png
-s347915150.312923
-e347915150.375041
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png
-xFoneMonkey-1/resources/shadow.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png" FoneMonkey-1/resources/shadow.pngf833508ec3bcb441^c6fd5f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadow.png0000000000000000^679"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png" FoneMonkey-1/resources/shadow.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadow.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadow.png"36"59AD6CC4-92E1-4C0C-9284-BB2ECD65A4CD-
-
-CCopyPNGFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png" FoneMonkey-1/resources/shadowUp.png
-s347915150.320616
-e347915150.387693
-r1
-xCopyPNGFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png
-xFoneMonkey-1/resources/shadowUp.png
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png" FoneMonkey-1/resources/shadowUp.png1f2d528ec3bcb441^0c40638ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadowUp.png0000000000000000^687"CopyPNGFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png" FoneMonkey-1/resources/shadowUp.png    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/shadowUp.png "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/shadowUp.png"36"5C0E35CB-0665-4F3F-AD05-30FFADF38FDB-
-
-CCopyPlistFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkeyRunner.plist" FoneMonkey-1/FoneMonkeyRunner.plist
-s347915148.635716
-e347915148.639284
-r1
-xCopyPlistFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkeyRunner.plist
-xFoneMonkey-1/FoneMonkeyRunner.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy FoneMonkey-1/FoneMonkeyRunner.plist77d6a28cc3bcb441^50a8a38cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/FoneMonkeyRunner.plist0000000000000000^527"CopyPlistFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkeyRunner.plist" FoneMonkey-1/FoneMonkeyRunner.plist    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyPlist --convert binary1 --outdir "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app" -- FoneMonkey-1/FoneMonkeyRunner.plist36"1FEFC40E-79E4-44F6-9006-AA50A5B208E8-
-
-CCopyStringsFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/InfoPlist.strings" RIIS-CodeMash/en.lproj/InfoPlist.strings
-s347915148.623728
-e347915148.627545
-r1
-xCopyStringsFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/InfoPlist.strings
-xRIIS-CodeMash/en.lproj/InfoPlist.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy RIIS-CodeMash/en.lproj/InfoPlist.stringse4c09f8cc3bcb441^83a7a08cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/en.lproj/InfoPlist.strings0000000000000000^593"CopyStringsFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj/InfoPlist.strings" RIIS-CodeMash/en.lproj/InfoPlist.strings    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/en.lproj" -- RIIS-CodeMash/en.lproj/InfoPlist.strings36"5D396451-B4D8-4622-9265-D3FCB81A6AFD-
-
-CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist"
-s347915148.222406
-e347915148.226311
-r1
-xCpResource
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist5516398cc3bcb441^feee398cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/ResourceRules.plist00f4bcdadcffdf42^689"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"74B8428A-6CB9-467E-9C2B-DB84D0A7EB3B-
-
-CCpResource FoneMonkey-1/COPYRIGHT "build/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHT"
-s347915148.625764
-e347915148.635085
-r1
-xCpResource
-xFoneMonkey-1/COPYRIGHT
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHT
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHTb83ea08cc3bcb441^ee94a28cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/COPYRIGHT00f4bcdadcffdf42^593"CpResource FoneMonkey-1/COPYRIGHT "build/Debug-iphoneos/RIIS-CodeMash copy.app/COPYRIGHT"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/COPYRIGHT "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"714525DE-E3AE-4DE2-A651-6239A3FD1113-
-
-CCpResource FoneMonkey-1/ReleaseNotes.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.html"
-s347915148.638131
-e347915148.640798
-r1
-xCpResource
-xFoneMonkey-1/ReleaseNotes.html
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.html
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.htmlcb80a38cc3bcb441^aa0ba48cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/ReleaseNotes.html00f4bcdadcffdf42^617"CpResource FoneMonkey-1/ReleaseNotes.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/ReleaseNotes.html"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/ReleaseNotes.html "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"09194AB6-131E-4C34-83F0-3A32581B94B4-
-
-CCpResource FoneMonkey-1/bin/iphonesim "build/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim"
-s347915148.625482
-e347915148.633957
-r1
-xCpResource
-xFoneMonkey-1/bin/iphonesim
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim0132a08cc3bcb441^a94ba28cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/iphonesim00f4bcdadcffdf42^601"CpResource FoneMonkey-1/bin/iphonesim "build/Debug-iphoneos/RIIS-CodeMash copy.app/iphonesim"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/bin/iphonesim "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"3048D58A-2024-475D-9E0C-F413B8764EB2-
-
-CCpResource FoneMonkey-1/docs/index.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/index.html"
-s347915148.628710
-e347915148.636755
-r1
-xCpResource
-xFoneMonkey-1/docs/index.html
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/index.html
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/index.html0709a18cc3bcb441^9302a38cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/index.html00f4bcdadcffdf42^606"CpResource FoneMonkey-1/docs/index.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/index.html"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/docs/index.html "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"B6EF3B49-D348-43A6-8130-1A3512C53CD3-
-
-CCpResource FoneMonkey-1/extralibs.zip "build/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zip"
-s347915148.635261
-e347915148.640145
-r1
-xCpResource
-xFoneMonkey-1/extralibs.zip
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zip
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zipb3b1a28cc3bcb441^2ee2a38cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/extralibs.zip00f4bcdadcffdf42^605"CpResource FoneMonkey-1/extralibs.zip "build/Debug-iphoneos/RIIS-CodeMash copy.app/extralibs.zip"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/extralibs.zip "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"A2729253-8109-45BF-9AC3-B99CD06847B8-
-
-CCpResource FoneMonkey-1/resources/FMObjConnect.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.html"
-s347915149.667704
-e347915149.704516
-r1
-xCpResource
-xFoneMonkey-1/resources/FMObjConnect.html
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.html
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.htmld506ab8dc3bcb441^5664b48dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/FMObjConnect.html00f4bcdadcffdf42^637"CpResource FoneMonkey-1/resources/FMObjConnect.html "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.html"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMObjConnect.html "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"C2FC48C6-646B-4E7B-A57F-A38943121F4C-
-
-CCpResource FoneMonkey-1/resources/FMObjConnect.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib"
-s347915149.708852
-e347915149.751709
-r1
-xCpResource
-xFoneMonkey-1/resources/FMObjConnect.jslib
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib39b3b58dc3bcb441^0473c08dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/FMObjConnect.jslib00f4bcdadcffdf42^640"CpResource FoneMonkey-1/resources/FMObjConnect.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMObjConnect.jslib"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMObjConnect.jslib "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"3429DF18-8047-463F-8209-71EC18077E34-
-
-CCpResource FoneMonkey-1/resources/FMQunitAPI.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslib"
-s347915149.796015
-e347915149.803052
-r1
-xCpResource
-xFoneMonkey-1/resources/FMQunitAPI.jslib
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslibfce1cb8dc3bcb441^c79ecd8dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/FMQunitAPI.jslib00f4bcdadcffdf42^634"CpResource FoneMonkey-1/resources/FMQunitAPI.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FMQunitAPI.jslib"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FMQunitAPI.jslib "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"891FDF63-2C36-40CB-BBCB-E5AC1DA0EB3B-
-
-CCpResource FoneMonkey-1/resources/FoneMonkey.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jslib"
-s347915149.947439
-e347915149.958225
-r1
-xCpResource
-xFoneMonkey-1/resources/FoneMonkey.jslib
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jslib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jsliba9a4f28dc3bcb441^9c4ff58dc3bcb441^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/FoneMonkey.jslib00f4bcdadcffdf42^634"CpResource FoneMonkey-1/resources/FoneMonkey.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/FoneMonkey.jslib"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/FoneMonkey.jslib "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"AE00B2D2-E0C4-4160-8B6D-10E1E57F6868-
-
-CCpResource FoneMonkey-1/resources/jquery-latest.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslib"
-s347915150.186535
-e347915150.206000
-r1
-xCpResource
-xFoneMonkey-1/resources/jquery-latest.jslib
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslibb1db2f8ec3bcb441^a5be348ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/jquery-latest.jslib00f4bcdadcffdf42^643"CpResource FoneMonkey-1/resources/jquery-latest.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/jquery-latest.jslib"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/jquery-latest.jslib "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"DA307666-7DB5-4628-B907-2750E56F4E37-
-
-CCpResource FoneMonkey-1/resources/objc.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/objc.template"
-s347915150.230676
-e347915150.235223
-r1
-xCpResource
-xFoneMonkey-1/resources/objc.template
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/objc.template
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/objc.templatebf453b8ec3bcb441^00363c8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/objc.template00f4bcdadcffdf42^625"CpResource FoneMonkey-1/resources/objc.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/objc.template"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/objc.template "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"362ECCBA-3670-459D-A86B-D4278BA56DCF-
-
-CCpResource FoneMonkey-1/resources/qunit.css "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.css"
-s347915150.243599
-e347915150.246443
-r1
-xCpResource
-xFoneMonkey-1/resources/qunit.css
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.css
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.cssef753e8ec3bcb441^1e193f8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/qunit.css00f4bcdadcffdf42^613"CpResource FoneMonkey-1/resources/qunit.css "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.css"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.css "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"0F9E4795-579A-4F67-8A79-43F449FB128B-
-
-CCpResource FoneMonkey-1/resources/qunit.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib"
-s347915150.247740
-e347915150.250066
-r1
-xCpResource
-xFoneMonkey-1/resources/qunit.jslib
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib62813f8ec3bcb441^c006408ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/qunit.jslib00f4bcdadcffdf42^619"CpResource FoneMonkey-1/resources/qunit.jslib "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.jslib"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.jslib "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"3C4A7037-682A-4C42-A4FF-8E8427A34A3D-
-
-CCpResource FoneMonkey-1/resources/qunit.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.template"
-s347915150.252008
-e347915150.258661
-r1
-xCpResource
-xFoneMonkey-1/resources/qunit.template
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.template
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.templatec79b408ec3bcb441^ac37428ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/qunit.template00f4bcdadcffdf42^628"CpResource FoneMonkey-1/resources/qunit.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/qunit.template"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/qunit.template "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"6746DC4B-4B45-4ABD-8AF8-E842B07DBAF8-
-
-CCpResource FoneMonkey-1/resources/uiautomation.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.template"
-s347915150.389023
-e347915150.392385
-r1
-xCpResource
-xFoneMonkey-1/resources/uiautomation.template
-xbuild/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.template
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.templatef7ac638ec3bcb441^9066648ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/uiautomation.template00f4bcdadcffdf42^649"CpResource FoneMonkey-1/resources/uiautomation.template "build/Debug-iphoneos/RIIS-CodeMash copy.app/uiautomation.template"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/resources/uiautomation.template "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"1A6B188C-F54E-4BC0-89C5-0314FB6234D4-
-
-CGenerateDSYMFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy"
-s347915148.536224
-e347915148.614347
-r1
-xGenerateDSYMFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generating /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM7159898cc3bcb441^5f469d8cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app.dSYM000000dc93191042^606"GenerateDSYMFile "build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM" "build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy" -o "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app.dSYM"36"CB4D5B1A-C9F9-457E-92FA-B979CBCE207D-
-
-CLd "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy" normal armv7
-s347915148.484819
-e347915148.528525
-r1
-xLd
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy
-xnormal
-xarmv7
-old: warning: directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy2b347c8cc3bcb441^8c4d878cc3bcb441^-130"ld: warning: directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'1(21%IDEActivityLogMessage2@116"Directory not found for option '-L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib'-347915148#0#130#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--1406"Ld "build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy" normal armv7    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/../../../Downloads/FoneMonkey/lib -L/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/lib -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -filelist "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/Objects-normal/armv7/RIIS-CodeMash copy.LinkFileList" -dead_strip -all_load -miphoneos-version-min=5.0 -lxml2 -framework SenTestingKit -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lFoneMonkey.5.5b -lFoneMonkeyOCUnit.5.5b -o "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/RIIS-CodeMash copy"36"5E085B26-EB70-481E-A83F-CD6A0B63AC5A-
-
-CProcessInfoPlistFile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist" "RIIS-CodeMash copy-Info.plist"
-s347915148.222406
-e347915148.226129
-r1
-xProcessInfoPlistFile
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist
-xRIIS-CodeMash copy-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Process RIIS-CodeMash copy-Info.plist1216398cc3bcb441^00e3398cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash%20copy-Info.plist0000000000000000^807"ProcessInfoPlistFile "build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist" "RIIS-CodeMash copy-Info.plist"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility "RIIS-CodeMash copy-Info.plist" -genpkginfo "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/ResourceRules.plist" -o "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/Info.plist"36"2056E186-A569-4C87-8641-31845D2FEBFC-
-
-CProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s347915148.235234
-e347915148.412511
-r1
-xProcessPCH
-x/var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth
-xRIIS-CodeMash/RIIS-CodeMash-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile RIIS-CodeMash/RIIS-CodeMash-Prefix.pchf75a3c8cc3bcb441^849a698cc3bcb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch0000000000000000^2908"ProcessPCH /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth RIIS-CodeMash/RIIS-CodeMash-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-generated-files.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-own-target-headers.hmap" "-I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-all-target-headers.hmap" -iquote "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy-project-headers.hmap" -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/include -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources/armv7 -I/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/DerivedSources -F/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Developer/Library/Frameworks -c /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/RIIS-CodeMash/RIIS-CodeMash-Prefix.pch -o /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/0b/yky5dqcn1ln9_3grtgwbwkr40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/RIIS-CodeMash-Prefix-esbibhdetpmeifayvfvljfaocpid/RIIS-CodeMash-Prefix.pch.d36"FD0D2880-1C08-44F6-B70C-6CEA4ABF21F2-
-
-CProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"
-s347915150.457876
-e347915150.461625
-r1
-xProcessProductPackaging
-x/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" "build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"1f49758ec3bcb441^162f768ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash%20copy.app/embedded.mobileprovision0000000000000000^701"ProcessProductPackaging "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" "build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility "/Users/Admin/Library/MobileDevice/Provisioning Profiles/97ABE490-C649-45B8-AE07-0B3DF596E5CE.mobileprovision" -o "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app/embedded.mobileprovision"36"7FB3BFF6-7862-448A-8C42-E4389B0192E5-
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent"
-s347915150.482752
-e347915150.485294
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent"9ca67b8ec3bcb441^8e3c7c8ec3bcb441^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash%20copy.xcent00f4bcdadcffdf42^729"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/RIIS-CodeMash.build/Debug-iphoneos/RIIS-CodeMashMonkey.build/RIIS-CodeMash copy.xcent"36"90AB6487-775D-4AD0-8453-9F238AE1D957-
-
-CTouch "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"
-s347915150.470493
-e347915150.474254
-r1
-xTouch
-x/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app4d81788ec3bcb441^3c69798ec3bcb441^---0#0#0#--394"Touch "build/Debug-iphoneos/RIIS-CodeMash copy.app"    cd /Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/Admin/Documents/GIT_CLONES/RIIS-CodeMash/build/Debug-iphoneos/RIIS-CodeMash copy.app"36"03ED9A4C-DF3D-4EA6-BEA5-5B8270A04D66-
-

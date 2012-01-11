@@ -977,7 +977,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export FONEMONKEY_HOME=~/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/\nexport FAMILY=iphone\nexport LOG_FILE=\"$PROJECT_DIR/$TARGETNAME.log\"\nexport FONEMONKEY_ENV=$FONEMONKEY_HOME/FoneMonkeyRunner.plist\n\nrm -f\"$LOG_FILE\"\n$FONEMONKEY_HOME/bin/iphonesim launch \"$CODESIGNING_FOLDER_PATH\" -verbose -sdk $IPHONEOS_DEPLOYMENT_TARGET -family $FAMILY -stderr \"$LOG_FILE\" -env \"$FONEMONKEY_ENV\"";
+			shellScript = "export FONEMONKEY_HOME=~/Documents/GIT_CLONES/RIIS-CodeMash/FoneMonkey-1/\nexport FAMILY=iphone\nexport LOG_FILE=\"$PROJECT_DIR/$TARGETNAME.log\"\nexport FONEMONKEY_ENV=$FONEMONKEY_HOME/FoneMonkeyRunner.plist\n\nrm -f \"$LOG_FILE\"\n$FONEMONKEY_HOME/bin/iphonesim launch \"$CODESIGNING_FOLDER_PATH\" -verbose -sdk $IPHONEOS_DEPLOYMENT_TARGET -family $FAMILY -stderr \"$LOG_FILE\" -env \"$FONEMONKEY_ENV\"";
 		};
 		C4A61AB214BB8EE3000EAB6D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;

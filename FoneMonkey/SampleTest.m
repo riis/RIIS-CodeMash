@@ -11,7 +11,9 @@
 @implementation SampleTest
 
 - (void) testSample {
-    NSString *lastResult = [FoneMonkeyAPI playFile:@"script1"];
+    NSString *lastResult = [FoneMonkeyAPI playFile:@"script1.fm"];
+    
+    NSLog(@"***lastResult***: %@", lastResult);
     STAssertNil(lastResult, lastResult);
 }
 
